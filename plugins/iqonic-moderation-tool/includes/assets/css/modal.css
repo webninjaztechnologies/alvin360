@@ -1,0 +1,77 @@
+#imt-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.8);
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.imt-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-out;
+    transform: translateY(45px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.imt-modal-centered {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 1.75em auto;
+    min-height: calc(100% - 3.5em);
+    padding: 0 1em;
+}
+
+#imt-modal-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imt-modal-overlay.active,
+.imt-modal.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.imt-modal-head h4 {
+    margin: 0;
+}
+
+.imt-close-modal {
+    cursor: pointer;
+}
+
+.imt-modal .imt-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: .0625em solid var(--border-color-light);
+}
+
+.select-report-types {
+    margin-bottom: 1em;
+}
+
+.select-report-types li {
+    padding: 0.3em 0;
+}
+
+.imt-submit-report {
+    margin-top: 1em;
+}

@@ -1,0 +1,228 @@
+/*=====================
+icon-box
+=============================*/
+.socialv-icon-box .socialv-iconbox-description{
+    margin: 0;
+}
+
+.socialv-icon-box {
+    transition: all .45s ease 0s;
+}
+
+.socialv-icon-box.on-hover:hover {
+    transform: translate3d(0,-15px,0);
+}
+
+/*=============
+style-1
+===================*/
+.socialv-icon-box-1{
+    position: relative;
+    overflow: hidden;
+    padding: 3.75em 3.5em;
+    text-align: center;
+    background-color: var(--global-body-bgcolor);
+    border-radius: var(--border-radius-box);
+    transition: all .5s ease-in-out;
+}
+
+.socialv-icon-box-1:hover{
+    background-color: var(--color-theme-primary);
+}
+
+.socialv-icon-image,
+.socialv-icon-box-1 .socialv-heading-title,
+.socialv-icon-box-1 .socialv-iconbox-description,
+.socialv-icon-image svg path,
+.socialv-icon-image svg, 
+.socialv-icon-image i{
+    transition: all .5s ease-in-out;
+}
+
+.socialv-icon-box-1::before{
+    content: "";
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: all .5s ease-in-out;
+}
+
+.socialv-icon-box-1:hover::before{
+    opacity: .1;
+}
+
+.socialv-icon-box-1 .socialv-icon-image{
+    position: relative;
+    display: inline-block;
+    height: 6.25em;
+    width: 6.25em;
+    line-height: 6.25em;
+    margin-bottom: 3.125em;
+    background: var(--color-theme-primary);
+    border-radius: var(--border-radius-box);
+    z-index: 1;
+}
+
+.socialv-icon-box-1 .socialv-icon-image svg {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.socialv-icon-box-1 .socialv-iconbox-info{
+    position: relative;
+    z-index: 1;
+}
+
+.socialv-icon-box-1:hover .socialv-icon-image{
+    background: var(--color-theme-white-box);
+}
+
+.socialv-icon-box-1:hover svg path{
+    stroke: var(--color-theme-primary);
+}
+
+.socialv-icon-box-1:hover .socialv-icon-image i{
+    color: var(--color-theme-primary);
+}
+
+.socialv-icon-box-1 .socialv-heading-title{
+    margin-bottom: .75em;
+}
+
+.socialv-icon-box-1:hover .socialv-heading-title,
+.socialv-icon-box-1:hover .socialv-iconbox-description,
+.socialv-icon-box-1:hover .socialv-button.socialv-button-link{
+    color: var(--color-theme-white);
+}
+
+.socialv-icon-box-1:hover .socialv-button{
+    color: var(--color-theme-primary);
+    background-color: var(--color-theme-white-box);
+}
+
+.socialv-icon-box-1:hover .socialv-button.socialv-button-link{
+    background-color: transparent;
+}
+
+.socialv-icon-box-1 .socialv-button-container{
+    margin-top: 2.5em;
+}
+
+@media (max-width: 767px){
+    .socialv-icon-box-1{
+        padding: 3.125em 2.5em;
+    }
+}
+
+/*================
+style-2
+=======================*/
+.socialv-icon-box-2{
+    display: flex;
+    align-items: flex-start;
+}
+
+.socialv-icon-box-2 .socialv-icon-image{
+    display: inline-block;
+    text-align: center;
+    height: 4.125em;
+    width: 4.125em;
+    min-width: 4.125em;
+    line-height: 4.125em;
+    background-color: var(--color-theme-white-box);
+    border-radius: var(--border-radius-box);
+}
+
+.socialv-icon-box-2 .socialv-icon-image svg {
+    height: 1em;
+    width: 1em;
+}
+
+.socialv-icon-box-2 .socialv-icon-image img{
+    width: 100%;
+}
+
+.socialv-icon-box-2 .socialv-iconbox-info{
+    margin: 0 1.5em;
+}
+
+.socialv-icon-box-2 .socialv-heading-title{
+    margin-bottom: .4375em;
+}
+
+.iconbox-border-bottom .elementor-widget-container .socialv-icon-box-2 {
+    margin: 0 0 2.1875em;
+    padding: 0 0 2.1875em;
+    border-bottom: .063em solid var(--border-color-light);
+}
+
+/*========
+responsive
+============*/
+@media (max-width: 767px){
+    .socialv-icon-box-2{
+        display: block;
+        text-align: center;
+    }
+
+    .socialv-icon-box-2 .socialv-iconbox-info{
+        margin-top: 1.5em;
+        margin-left: 0;
+    }
+}
+
+/*================
+style-3
+=======================*/
+.socialv-icon-box.socialv-icon-box-3 {
+    background: var(--color-theme-white-box);
+    padding: 3em 1em 2em;
+    border-radius: var(--border-radius-10);
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.socialv-icon-box-3 .socialv-icon-image {
+    margin: 0 auto 1em;
+}
+
+.socialv-icon-box-3 .socialv-icon-image img {
+    border-radius: var(--border-radius);
+}
+
+.socialv-icon-box-3 .socialv-heading-title {
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.socialv-icon-box-3 .socialv-description,
+.socialv-icon-box-3 .socialv-button-container {
+    margin-top: 1em;
+}
+
+.socialv-icon-box.socialv-icon-box-3::before {
+    color: rgba(0,0,0,.07);
+    border-radius: .5em .5em 0 0;
+    box-sizing: border-box;
+    content: "\2022\2022\2022";
+    display: block;
+    line-height: 1.625em;
+    font-size: 1.2em;
+    width: 100%;
+    transition: all .3s ease-out 0s;
+    text-align: left;
+    position: absolute;
+    top: -.1em;
+    left: 1em;
+}
+
+
+

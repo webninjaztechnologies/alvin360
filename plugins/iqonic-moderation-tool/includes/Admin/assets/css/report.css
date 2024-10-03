@@ -1,0 +1,44 @@
+.metabox-panel-wrap .field-wrap {
+    display: flex;
+    gap: 2em;
+    border-bottom: 1px solid #ddd;
+    padding: 2em 0;
+}
+
+.userid-input-label {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.userid-input-label-username,
+.userid-input-label-username a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.metabox-panel-wrap .field-wrap .field-label {
+    width: 135px;
+    color: #000;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.field-discription-wrap {
+    flex: 1;
+}
+
+.field-discription-wrap textarea.imt-textarea {
+    width: 90%;
+}
+
+.field-description {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+    font-style: italic;
+}

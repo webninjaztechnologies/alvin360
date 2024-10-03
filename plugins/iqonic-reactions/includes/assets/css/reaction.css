@@ -1,0 +1,737 @@
+/*==============================
+iqonic-reaction
+======================================*/
+.iqonic-reaction {
+    display: inline-block;
+    position: relative;
+    margin-right: 0.3125em;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.iqonic-reaction .reaction-button i {
+    font-size: 1.4em;
+    vertical-align: top;
+}
+
+.iqonic-reaction .reaction-text,
+.iqonic-reaction .user-reaction .reaction-name {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: text-bottom;
+    padding: 0 0.3125em;
+    margin-left: 0.125em;
+    color: var(--global-font-color);
+    font-size: var(--font-size-normal);
+}
+
+.iqonic-reaction .user-reaction {
+    cursor: pointer;
+}
+
+.iqonic-reaction .user-reaction :is(.reaction-image, .iqonic-reaction-default) {
+    height: 1.4em;
+    width: 1.4em;
+    vertical-align: top;
+}
+
+.reaction-wrapper .reaction-count {
+    display: inline-block;
+}
+
+.iqonic-reaction .reaction-option>img {
+    object-fit: cover;
+    height: 2em;
+    width: 2em;
+}
+
+.iqonic-reaction .reaction-wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    position: absolute;
+    top: -3.5em;
+    left: -.5em;
+    padding: 0.5em 1em;
+    background: var(--global-body-bgcolor);
+    border-radius: 3.125em;
+    box-shadow: var(--global-box-shadow);
+    border: 1px solid var(--border-color-light);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9;
+    -webkit-animation: fadeInLike .3s ease-in;
+    animation: fadeInLike .3s ease-in;
+    -moz-transform: translateY(0.5em);
+    -webkit-transform: translateY(0.5em);
+    -o-transform: translateY(0.5em);
+    -ms-transform: translateY(0.5em);
+    transform: translateY(0.5em);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.iqonic-reaction:hover .reaction-wrapper,
+.reaction-wrapper.touch-active {
+    visibility: visible;
+    opacity: 1;
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.iqonic-reaction .reaction-wrapper .reaction-option {
+    position: relative;
+    cursor: pointer;
+    min-width: 2em;
+    line-height: initial;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.iqonic-reaction .reaction-wrapper .reaction-option .reaction-image {
+    transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.iqonic-reaction .reaction-wrapper .reaction-option:hover .reaction-image,
+.iqonic-reaction .reaction-wrapper .reaction-option.touch-hover .reaction-image {
+    cursor: pointer;
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.iqonic-reaction .reaction-option .reaction-name {
+    display: inline-block;
+    padding: 0.6em 0.8em;
+    background-color: var(--color-theme-black);
+    color: var(--color-theme-white);
+    font-size: 0.625em;
+    font-weight: var(--font-weight-semi-bold);
+    text-transform: capitalize;
+    position: absolute;
+    top: -4em;
+    left: 50%;
+    -moz-border-raidus: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.iqonic-reaction .reaction-option:hover .reaction-name,
+.iqonic-reaction .reaction-option.touch-hover .reaction-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.emoji-reaction .liked-member li img {
+    height: 1.5em;
+    width: 1.5em;
+    min-width: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.emoji-reaction .liked-member ul li {
+    margin: 0 0 0 -0.75em !important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.iqonic-meta-details .user-reaction-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 0.3em;
+    gap: 0.3em;
+}
+
+.iqonic-meta-details .emoji-reaction .liked-member {
+    display: initial;
+}
+
+.iqonic-meta-details .total-member {
+    font-size: var(--font-size-normal);
+    line-height: normal;
+    font-family: var(--highlight-font-family);
+}
+
+.iqonic-meta-details .total-member .comment-info {
+    display: inline-block;
+}
+
+.iqonic-meta-details .total-member a {
+    color: var(--global-font-title);
+    text-transform: capitalize;
+}
+
+.iqonic-meta-details .total-member .other-content {
+    cursor: pointer;
+    color: var(--global-font-title);
+}
+
+.emoji-reaction .liked-member ul li:first-child {
+    margin: 0 !important;
+}
+
+.emoji-reaction .liked-member ul li:hover {
+    z-index: 1;
+}
+
+.ir-reaction-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+    -webkit-animation: fadeInLike .3s ease-in-out;
+    animation: fadeInLike .3s ease-in-out;
+    margin: 0 auto;
+    overflow: hidden auto;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.ir-reaction-modal::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--color-theme-black);
+    opacity: .5;
+}
+
+.ir-reaction-modal.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.ir-reaction-modal .ir-modal-centered {
+    position: relative;
+    max-width: 34.375em;
+    min-width: 34.375em;
+    margin: 0 auto;
+}
+
+.ir-reaction-modal .ir-modal-centered .popup_close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -moz-transform: translateY(-80%);
+    -webkit-transform: translateY(-80%);
+    -o-transform: translateY(-80%);
+    -ms-transform: translateY(-80%);
+    transform: translateY(-80%);
+}
+
+.ir-box {
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    background: var(--color-theme-white-box);
+    border-radius: 0.375em;
+    border-radius: var(--border-radius-box);
+    -webkit-box-shadow: 0 14px 54px rgb(0 0 0 / 3%);
+    box-shadow: 0 14px 54px rgb(0 0 0 / 3%);
+    -webkit-box-shadow: var(--global-box-shadow);
+    box-shadow: var(--global-box-shadow);
+    -webkit-transform: translateY(-3.125em);
+    transform: translateY(-3.125em);
+}
+
+.ir-reaction-modal.active .ir-box{
+    -webkit-animation: ir-slider-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: ir-slider-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} 
+
+.ir-box .ir-modal-head {
+    position: relative;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+    border-bottom: 0.0625em solid var(--border-color-light);
+}
+
+.ir-box .ir-options {
+    display: flex;
+    align-items: center;
+    padding-right: 1.3em;
+}
+
+.ir-box .ir-options .ir-option {
+    cursor: pointer;
+}
+
+.ir-box .ir-option .ir-option-text {
+    font-size: 1em;
+    line-height: normal;
+}
+
+.ir-box .reaction-tab-container .ir-option .ir-option-text {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: initial;
+}
+
+.ir-box .ir-options .ir-option .ir-option-image {
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+    object-fit: cover;
+    -moz-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.ir-box .ir-options .ir-option.active .ir-option-image {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.ir-box .ir-modal-body {
+    max-height: 15.625em;
+    min-height: 15.625em;
+    overflow-y: auto;
+}
+
+.ir-modal-body .user-reaction-list {
+    position: relative;
+    -webkit-animation: fadeInLike .3s ease-in;
+    animation: fadeInLike .3s ease-in;
+}
+
+.ir-modal-body .user-reaction-list:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.ir-box .ir-modal-body .meta {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-right: 3em;
+}
+
+.ir-box .ir-modal-body .meta .avatar {
+    height: 3.125em;
+    width: 3.125em;
+    min-width: 3.125em;
+    object-fit: cover;
+}
+
+.ir-modal-body .meta p {
+    color: var(--global-font-color);
+    font-size: var(--font-size-xs);
+}
+
+.ir-box .ir-modal-body .user-reaction-list .user-reaction {
+    position: absolute;
+    top: 50%;
+    right: 0.1em;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ir-box .ir-modal-body .user-reaction-list .user-reaction img {
+    height: 1.2em;
+    width: 1.2em;
+    object-fit: cover;
+}
+
+#buddypress .comment-container-main .acomment-options a,
+#buddypress .comment-container-main .acomment-options a.bp-secondary-action,
+.comment-container-main .acomment-options a {
+    text-transform: capitalize;
+    font-weight: var(--font-weight-regular);
+}
+
+@-webkit-keyframes ir-slider-bottom {
+    0% {
+      -webkit-transform: translateY(-3.125em);
+      transform: translateY(-3.125em);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes ir-slider-bottom {
+    0% {
+      -webkit-transform: translateY(-3.125em);
+      transform: translateY(-3.125em);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+
+/*===================
+comment-reaction
+=======================*/
+#buddypress ul.activity-list li ul.activity-comments li {
+    overflow: visible;
+}
+
+.iqonic-reaction.comment-reaction {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.iqonic-reaction.comment-reaction .reaction-button,
+.iqonic-reaction.comment-reaction .user-comment-reaction {
+    line-height: initial;
+    cursor: pointer;
+}
+
+.iqonic-reaction.comment-reaction .reaction-button i {
+    font-size: 1em;
+    vertical-align: baseline;
+}
+
+.iqonic-reaction.comment-reaction .user-comment-reaction :is(.reaction-image, .iqonic-reaction-default) {
+    height: 1.1em;
+    width: 1.1em;
+    vertical-align: bottom;
+}
+
+.iqonic-reaction.comment-reaction .reaction-text,
+.iqonic-reaction.comment-reaction .user-comment-reaction .reaction-name {
+    margin-left: 0;
+    padding: 0 0.1875em;
+    font-size: var(--font-size-xs);
+    text-transform: capitalize;
+}
+
+.iqonic-reaction.comment-reaction .reaction-wrapper {
+    top: -3.5em;
+    left: -1em;
+}
+
+.comment-container-main .ir-comment-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ir-comment-box .iqonic-meta-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.ir-comment-box .total-member {
+    font-size: var(--font-size-xs);
+}
+
+#buddypress .comment-container-main .ir-comment-box .total-member a {
+    font-size: inherit;
+    color: var(--global-font-title);
+}
+
+.ir-comment-box .iqonic-meta-details .liked-member .member-thumb-group {
+    padding: 0;
+}
+
+.ir-comment-box .emoji-reaction .liked-member li img {
+    height: 1.1em;
+    width: 1.1em;
+    min-width: 1.1em;
+    line-height: inherit;
+    vertical-align: baseline;
+}
+
+#buddypress ul.activity-list li ul.activity-comments li .ir-comment-box .iqonic-meta-details .liked-member .member-thumb-group li {
+    padding: 0;
+    margin: 0 0 0 -0.75em !important;
+    border: none;
+}
+
+#buddypress .iqonic-meta-details ul.member-thumb-group li {
+    border: none;
+}
+
+#buddypress ul.activity-list li ul.activity-comments li .ir-comment-box .iqonic-meta-details .liked-member .member-thumb-group li:first-child {
+    margin: 0 !important;
+}
+
+.ir-option {
+    position: relative;
+}
+
+/*================
+tab-list
+===================*/
+.reaction-tab-lists {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    clear: left;
+    padding: 0 0.8em;
+    line-height: initial;
+}
+
+.reaction-tab-lists .right,
+.reaction-tab-lists .left {
+    position: relative;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.reaction-tab-lists .right i,
+.reaction-tab-lists .left i {
+    vertical-align: middle;
+}
+
+.reaction-tab-lists .left {
+    left: -0.3em;
+}
+
+.reaction-tab-lists .right {
+    order: 3;
+    right: -0.3em;
+}
+
+.ir-box .reaction-tab-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.ir-box .reaction-tab-container .ir-option {
+    display: inline-block;
+    padding: 0 0.2em;
+}
+
+.ir-box .reaction-tab-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.reaction-tab-lists .reaction-tab-container::-webkit-scrollbar {
+    display: none;
+}
+
+.iqonic-reaction .user-reaction .reaction-image,
+.emoji-reaction .liked-member li img,
+.iqonic-reaction .reaction-option>img,
+.ir-box .ir-options .ir-option .ir-option-image,
+.ir-box .ir-modal-body .meta .avatar,
+.iqonic-reaction.comment-reaction .user-comment-reaction .reaction-image,
+.ir-box .ir-modal-body .user-reaction-list .user-reaction img {
+    -moz-border-raidus: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*===================
+dark-mode
+=======================*/
+[data-mode="dark"] .ir-box {
+    background: var(--global-body-bgcolor);
+}
+
+[data-mode="dark"] .iqonic-reaction .reaction-wrapper {
+    -webkit-box-shadow: 0 12px 28px 0 rgb(4 5 10 / 20%);
+    box-shadow: 0 12px 28px 0 rgb(4 5 10 / 20%);
+}
+
+/*================
+rtl
+====================*/
+[dir="rtl"] .iqonic-reaction .reaction-wrapper {
+    left: auto;
+    right: -.5em;
+}
+
+[dir="rtl"] .ir-reaction-modal .ir-modal-centered .popup_close-button {
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .emoji-reaction .liked-member ul li {
+    margin: 0 -0.75em 0 0 !important;
+}
+
+[dir="rtl"] .emoji-reaction .liked-member ul li:first-child {
+    margin: 0 !important;
+}
+
+[dir="rtl"] .ir-box .ir-options {
+    padding-right: 0;
+    padding-left: 1.5em;
+}
+
+[dir="rtl"] .ir-box .ir-modal-body .meta {
+    padding-right: 0;
+    padding-left: 3em;
+}
+
+[dir="rtl"] .ir-box .ir-modal-body .user-reaction-list .user-reaction {
+    right: auto;
+    left: 0.1em;
+}
+
+[dir="rtl"] .iqonic-reaction.comment-reaction {
+    margin-right: 0;
+    margin-left: 0.5em;
+}
+
+[dir="rtl"] #buddypress ul.activity-list li ul.activity-comments li .ir-comment-box .iqonic-meta-details .liked-member .member-thumb-group li {
+    padding: 0;
+    margin: 0 -0.75em 0 0 !important;
+}
+
+[dir="rtl"] #buddypress ul.activity-list li ul.activity-comments li .ir-comment-box .iqonic-meta-details .liked-member .member-thumb-group li:first-child {
+    margin: 0 !important;
+}
+
+[dir="rtl"] .iqonic-reaction.comment-reaction .reaction-wrapper {
+    left: auto;
+    right: -1em;
+}
+
+[dir="rtl"] .reaction-tab-lists .left {
+    left: 0.3em;
+}
+
+[dir="rtl"] .reaction-tab-lists .right {
+    right: 0.3em;
+}
+
+[dir="rtl"] .reaction-tab-lists .right .iconly-Arrow-Right-2::before {
+    content: "\e908";
+}
+
+[dir="rtl"] .reaction-tab-lists .left .iconly-Arrow-Left-2:before {
+    content: "\e90d";
+}
+
+[dir="rtl"] .iqonic-reaction .reaction-text, 
+[dir="rtl"] .iqonic-reaction .user-reaction .reaction-name {
+    margin-left: 0;
+    margin-right: 0.125em;
+}
+
+.iqonic-reactions-notification-img {
+    height: 1em;
+    width: 1em;
+    object-fit: cover;
+    margin: 0 0.3em;
+    vertical-align: middle;
+}
+
+/*============
+responsive
+=================*/
+
+@media (max-width: 479px) {
+
+    [dir="rtl"] .iqonic-reaction.comment-reaction .reaction-wrapper {
+        left: auto;
+        right: -2.3em;
+    }
+}
+
+/*======================
+responsive
+==========================*/
+@media (max-width: 550px) {
+    .ir-reaction-modal .ir-modal-centered {
+        max-width: unset;
+        min-width: unset;
+        width: calc(100% - 32px);
+    }
+
+    .ir-box {
+        padding: 1.5em;
+    }
+}
+
+@media (max-width: 479px) {
+    .iqonic-reaction .reaction-wrapper {
+        padding: 0.5em 0.8em;
+    }
+
+    .iqonic-reaction .reaction-wrapper .reaction-option {
+        min-width: 1.8em;
+    }
+
+    .iqonic-reaction .reaction-option>img {
+        height: 1.8em;
+        width: 1.8em;
+    }
+
+    .iqonic-reaction.comment-reaction .reaction-wrapper {
+        gap: 0.4em;
+        left: -2.3em;
+    }
+
+    .iqonic-reaction.comment-reaction .reaction-wrapper .reaction-option {
+        min-width: 1.4em;
+    }
+
+    .iqonic-reaction.comment-reaction .reaction-option>img {
+        height: 1.4em;
+        width: 1.4em;
+    }
+
+}

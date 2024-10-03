@@ -1,0 +1,2598 @@
+# Copyright (C) 2024 Iqonic Design.
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Iqonic Moderation Tool 1.2.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/iqonic-moderation-tool\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-20T13:09:28+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#. Plugin Name of the plugin
+#: iqonic-moderation-tool.php
+#: includes/Admin/Classes/IMT_Report.php:60
+#: includes/Admin/Classes/IMT_Settings.php:143
+msgid "Iqonic Moderation Tool"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: iqonic-moderation-tool.php
+msgid "https://iqonic.design/"
+msgstr ""
+
+#. Description of the plugin
+#: iqonic-moderation-tool.php
+msgid "Iqonic Moderation Tool provides safe and supportive community for everyone. Report content or block other members and set rules to automatically hide content or suspend members who have been flagged a number of times."
+msgstr ""
+
+#. Author of the plugin
+#: iqonic-moderation-tool.php
+msgid "Iqonic Design."
+msgstr ""
+
+#: includes/Admin/Classes/fields/dimensions/class-redux-dimensions.php:149
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: includes/Admin/Classes/fields/dimensions/class-redux-dimensions.php:181
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:173
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:597
+msgid "Height"
+msgstr ""
+
+#: includes/Admin/Classes/fields/dimensions/class-redux-dimensions.php:203
+#: includes/Admin/Classes/fields/dimensions/class-redux-dimensions.php:211
+#: includes/Admin/Classes/fields/dimensions/class-redux-dimensions.php:213
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:294
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:298
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:194
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:198
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:200
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:282
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: includes/Admin/Classes/fields/media/class-redux-media.php:92
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:285
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr ""
+
+#: includes/Admin/Classes/fields/media/class-redux-media.php:253
+msgid "Upload or browse a file"
+msgstr ""
+
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:165
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:180
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:106
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:223
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:123
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:223
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:679
+msgid "Top"
+msgstr ""
+
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:242
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:147
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:255
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:706
+msgid "Bottom"
+msgstr ""
+
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:261
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:135
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr ""
+
+#: includes/Admin/Classes/fields/spacing/class-redux-spacing.php:280
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:159
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:20
+msgid "Iqonic Moderation"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:30
+#: includes/Admin/Classes/IMT_Admin.php:31
+msgid "Suspend"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:39
+#: includes/Admin/Classes/IMT_Admin.php:40
+#: templates/report-activity-form.php:19
+#: templates/report-form.php:15
+#: templates/report-member-form.php:19
+#: templates/report/report-activity-form.php:19
+#: templates/report/report-form.php:18
+msgid "Report Types"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:98
+#: includes/Admin/Classes/IMT_Report.php:145
+msgid "Suspend Member"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:99
+#: includes/Admin/Classes/IMT_Report.php:145
+#: includes/Admin/Classes/IMT_Suspend.php:45
+msgid "Unsuspend Member"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:121
+msgid "Moderation Tool"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:125
+msgid "Reason for suspending"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Admin.php:129
+msgid "You can edit reason of why you are suspending this user"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:25
+msgctxt "taxonomy general name"
+msgid "Report types"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:26
+msgctxt "taxonomy singular name"
+msgid "Report type"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:27
+msgid "Search Report types"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:28
+msgid "All Report types"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:29
+msgid "Edit Report type"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:30
+msgid "Update Report type"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:31
+msgid "Add New Report type"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:32
+msgid "New Report type Name"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:33
+msgid "No Report types found"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:34
+msgid "No Reports types found in Trash"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:35
+msgid "Report types"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:51
+#: includes/Admin/Classes/IMT_Report.php:52
+#: includes/Admin/Classes/IMT_Report.php:53
+#: includes/Admin/Classes/IMT_Report.php:54
+#: includes/Admin/Classes/Settings/General.php:41
+#: includes/Admin/Classes/Settings/General.php:51
+#: includes/Shortcodes/Shortcodes.php:148
+#: templates/report-button.php:24
+msgid "Report"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:55
+msgid "Add New"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:56
+msgid "Add New Report"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:57
+msgid "New Report"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:58
+msgid "Edit Report"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:59
+msgid "View Report"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:61
+msgid "Search Reports"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:62
+msgid "Parent Reports:"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:63
+msgid "No Reports found."
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:64
+msgid "No Reports found in Trash."
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:94
+msgid "Report Moderation"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:102
+msgid "Report Details"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:115
+msgid "Reports created by administrators relate to members, rather than individual items. Therefore moderation is not available."
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:118
+msgid "Moderation is not available for reports made prior to Version 3"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:139
+msgid "This is the %s time this item has been reported."
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:150
+msgid "Unmoderate Activity"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:150
+msgid "Moderate Activity"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:155
+msgid "Unmoderate Group"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Report.php:155
+msgid "Moderate Group"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Settings.php:158
+#: includes/Admin/Classes/IMT_Settings.php:159
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Suspend.php:27
+msgid "ID"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Suspend.php:28
+msgid "User"
+msgstr ""
+
+#: includes/Admin/Classes/IMT_Suspend.php:29
+msgid "Action"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:20
+#: includes/Admin/Classes/Settings/General.php:29
+msgid "Block/Unblock"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:23
+msgid "Manage settings related to the block/unblock user"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:30
+msgid "Select this option for allowing user to block/unblock other users."
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:32
+#: includes/Admin/Classes/Settings/General.php:54
+#: includes/Admin/Classes/Settings/General.php:66
+#: includes/Admin/Classes/Settings/General.php:79
+#: includes/Admin/Classes/Settings/General.php:92
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:174
+msgid "Enable"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:33
+#: includes/Admin/Classes/Settings/General.php:55
+#: includes/Admin/Classes/Settings/General.php:67
+#: includes/Admin/Classes/Settings/General.php:80
+#: includes/Admin/Classes/Settings/General.php:93
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:179
+msgid "Disable"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:44
+msgid "Manage settings related to the report activity,group,users"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:52
+msgid "Enable this for allowing users to report activity, group, users."
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:63
+msgid "Report User"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:64
+msgid "Enable/Disable report user."
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:76
+#: includes/Shortcodes/Shortcodes.php:158
+#: templates/report-activity-form.php:15
+#: templates/report/report-activity-form.php:15
+msgid "Report Activity"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:77
+msgid "Enable/Disable report activity."
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:89
+#: includes/Shortcodes/Shortcodes.php:159
+msgid "Report Group"
+msgstr ""
+
+#: includes/Admin/Classes/Settings/General.php:90
+msgid "Enable/Disable report groups."
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/footer.tpl.php:59
+#: includes/Admin/Classes/templates/panel/header.tpl.php:77
+#: includes/ReduxCore/templates/panel/footer.tpl.php:58
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/footer.tpl.php:63
+#: includes/ReduxCore/templates/panel/footer.tpl.php:62
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/footer.tpl.php:64
+#: includes/ReduxCore/templates/panel/footer.tpl.php:63
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/footer.tpl.php:68
+#: includes/Admin/Classes/templates/panel/header.tpl.php:81
+#: includes/ReduxCore/templates/panel/footer.tpl.php:67
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:12
+#: includes/Admin/Classes/templates/panel/header.tpl.php:47
+#: includes/ReduxCore/templates/panel/header.tpl.php:11
+#: includes/ReduxCore/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:21
+#: includes/ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:27
+#: includes/ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:32
+#: includes/ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:35
+#: includes/ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:37
+#: includes/ReduxCore/templates/panel/header.tpl.php:36
+msgid "If you are not a developer, your theme/plugin author shipped with developer mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:61
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1230
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: includes/Admin/Classes/templates/panel/header.tpl.php:66
+msgid "search"
+msgstr ""
+
+#: includes/Admin/Metabox/report-details-metabox.php:39
+msgid "Group Reported"
+msgstr ""
+
+#: includes/Admin/Metabox/report-details-metabox.php:39
+msgid "Member Reported"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:91
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:109
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:104
+msgid "Submit Support Information?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: includes/Classes/Redux_Panel.php:111
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:106
+msgid "Redux will send the debug information found on the %s and your Redux config to our secure server.  Are you ready to proceed?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: includes/Classes/Redux_Panel.php:111
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:106
+msgid "WordPress Site Health screen"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:172
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:166
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1213
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:193
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:214
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:235
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:262
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:256
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:276
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:270
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1221
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1527
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:291
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:285
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1225
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:416
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:405
+msgid "Your panel has bundled copies of Redux Framework template files that are outdated!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:416
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:405
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:321
+msgid "The Redux upload directory"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:327
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:328
+msgid "Debug information specific to Redux Framework."
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:331
+#: includes/ReduxCore/inc/welcome/views/about.php:25
+#: includes/ReduxCore/inc/welcome/views/about.php:131
+#: includes/ReduxCore/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:335
+msgid "Installation"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:339
+msgid "Data directory"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:343
+msgid "Browser"
+msgstr ""
+
+#. translators: %s = Instance name.
+#: includes/ReduxCore/class-redux-core.php:376
+msgid "Redux Instance: %s"
+msgstr ""
+
+#. translators: %s = Instance name w/ HTML.
+#: includes/ReduxCore/class-redux-core.php:378
+msgid "Debug information for the %s Redux instance."
+msgstr ""
+
+#: includes/ReduxCore/framework.php:442
+#: includes/ReduxCore/framework.php:451
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-admin-notices.php:136
+msgid "Dismiss"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:42
+#: includes/ReduxCore/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:52
+#: includes/ReduxCore/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:114
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:144
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: includes/ReduxCore/inc/classes/class-redux-api.php:147
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:376
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:756
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:773
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-metaboxes-api.php:448
+msgid "Unable to create a section due an empty section array or the section variable passed was not an array."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: includes/ReduxCore/inc/classes/class-redux-args.php:266
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:267
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:319
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:114
+msgid "Redux"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:274
+#: includes/ReduxCore/inc/classes/class-redux-args.php:278
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:994
+msgid "Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:340
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:341
+msgid "There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:342
+#: includes/ReduxCore/inc/classes/class-redux-args.php:359
+msgid "argument.  This is sample data.  Please change or remove this data before shipping your product."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:357
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:358
+msgid "There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:127
+msgid "Please wait a few minutes, then try refreshing the page. Unable to load some remotely hosted scripts."
+msgstr ""
+
+#. translators: %s: URL.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:130
+msgid "If you are developing offline, please download and install the %s plugin/extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:134
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:182
+msgid "The %1$s (or extension) is either not installed or not activated and thus, some controls may not render properly.  Please ensure that it is installed and %2$s"
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:200
+msgid "Error: Install URL for Extendify could not be located."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:221
+msgid "Install process for Extendify failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:236
+msgid "Extendify activation failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:244
+msgid "Extendify installed and activated."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:385
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:399
+msgid "Visit our website to learn more!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:409
+msgid "Action needed to continue using the template library."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:412
+msgid "The Extendify Library of Patterns and Templates has been unbundled from the Redux Options Framework to give our users more control over their WordPress experience. To continue using the Extendify Library click Install & Activate below."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:422
+msgid "Install and Activate Extendify"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:445
+msgid "<strong>Redux is activated!</strong> Each site on your network must be connected individually by an admin on that site."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:626
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:719
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:642
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:720
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:658
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:674
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:721
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:690
+msgid "Your current options will be replaced with the values of this import. Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:705
+msgid "Please Wait"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:717
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:721
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "This field will not render in your option panel, and features of this extension will not be available until the latest version of Redux Framework has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: includes/ReduxCore/inc/classes/class-redux-extensions.php:96
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:38
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:143
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:199
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:128
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:263
+msgid "Title"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:40
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:140
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:276
+msgid "Description"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:43
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:993
+msgid "Default"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "File Permission Issues"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "We were unable to modify required files. Please ensure that %1$s has the proper read-write permissions, or modify your wp-config.php file to contain your FTP login credentials as %2$s."
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "outlined here"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-health.php:52
+msgid "Security token"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-health.php:87
+msgid "Data transmit"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-helpers.php:733
+msgid "version"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-helpers.php:733
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:186
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:188
+msgid "clicking"
+msgstr ""
+
+#. translators: %1$s: Mouse action.  %2$s: Hint status.
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:193
+msgid "Hints are tooltips that popup when %1$s the hint icon, offering addition information about the field in which they appear.  They can be %2$s by using the link below."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:198
+msgid "Hints"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:214
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:517
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-rest-api-builder.php:68
+#: includes/ReduxCore/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#. translators: Number of years
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:99
+msgid "%s years"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:101
+msgid "a year"
+msgstr ""
+
+#. translators: Number of weeks
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:108
+msgid "%s weeks"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:110
+msgid "a week"
+msgstr ""
+
+#. translators: Number of days
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:117
+msgid "%s days"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:119
+msgid "a day"
+msgstr ""
+
+#. translators: Number of hours
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:126
+msgid "%s hours"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:128
+msgid "an hour"
+msgstr ""
+
+#. translators: Number of minutes
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:135
+msgid "%s minutes"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:137
+msgid "a minute"
+msgstr ""
+
+#. translators: Number of seconds
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:144
+msgid "%s seconds"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:146
+msgid "a second"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:278
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:282
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:285
+msgid "You have been using %1$s for %2$s now. Would you mind leaving a review to let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:289
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:290
+msgid "No thanks / I already have"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-wordpress-data.php:358
+msgid "[unassigned]"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:743
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:744
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:745
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:109
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:231
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:138
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:197
+msgid "You are customizing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:193
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:181
+msgid "Back"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:204
+msgid "Help"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:98
+msgid "Press return or enter to expand"
+msgstr ""
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the section title in the Customizer
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:144
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:146
+msgid "Customizing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:175
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:250
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:308
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:325
+msgid "Unable to delete font file(s)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:441
+msgid "Attachment does not exist."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:485
+msgid "Unzipping failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:561
+msgid "File type not recognized."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:569
+msgid "Unidentified error."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:598
+msgid "The font format .eot is not supported."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:622
+msgid "No valid font file was found."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:674
+msgid "Your font could not be converted at this time. Please try again later."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:712
+msgid "ZIP error. Your font could not be converted at this time. Please try again later."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:881
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:890
+msgid "Font Control"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:79
+msgid "Error"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:99
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:167
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:219
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:393
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:300
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:215
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:351
+msgid "Delete"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:109
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:112
+msgid "Add Font"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:111
+msgid "No Custom Fonts Found"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:177
+msgid "There was an error deleting your font:"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:178
+msgid "Unzipping archive and generating any missing font files."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:179
+msgid "Converting font file(s)..."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:180
+msgid "The only file(s) imported were those uploaded.  Please refresh the page to continue (making note of any errors before doing so, please)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:181
+msgid "An unknown error occurred. Please try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:182
+msgid "Conversion complete.  Refreshing page..."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:183
+msgid "Choose Font file or ZIP of font files."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:184
+msgid "Update"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:149
+msgid "Date"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:150
+msgid "Time"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:152
+msgid "Date / Time"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:118
+msgid "Enter your address"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:119
+msgid "Left mouse down on top of me to move me!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:120
+msgid "The returned place contains no geometric data."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:183
+msgid "Place"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:186
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:204
+msgid "Address"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:189
+msgid "Geo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:216
+msgid "Street"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:230
+msgid "City"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:244
+msgid "State"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:258
+msgid "ZIP Code"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:272
+msgid "Country"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:286
+msgid "Latitude"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:300
+msgid "Longitude"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:314
+msgid "Marker Info"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:327
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:331
+msgid "Get an API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:332
+msgid "Google Map Usage Limits"
+msgstr ""
+
+#. translators: %1$s: Google Maps API Key url. %2$s: Google Maps Usage URL.
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:335
+msgid "Google Maps supports 25,000 free map loads per 24 hours for 90 consecutive days.  In the events you run a high volume site, you may need to obtain an API Key to continue using Google Map output beyond the free quota.  To sign up for an API Key, please visit the %1$s site.  For more information about Google Map usage limits, please visit the %2$s guide."
+msgstr ""
+
+#. translators: %1$s: Google Maps API Key url. %2$s: Google Maps Usage URL.
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:335
+msgid "Once you have obtained an API Key, please enter it in the text box below and save the options panel."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:338
+msgid "API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:78
+msgid "Import Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:84
+msgid "Import from Clipboard"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:90
+msgid "Upload file"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:97
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:110
+msgid "Import"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:113
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:121
+msgid "Export Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:125
+msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:132
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:134
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:133
+msgid "Copied!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:137
+msgid "Export File"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:169
+msgid "Your panel has unchanged values, would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1533
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-metaboxes-api.php:636
+msgid "Unable to create a box due an empty box array or the box variable passed was not an array."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:32
+msgid "Add or Upload File(s)"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:123
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:229
+msgid "Remove Image"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:146
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:231
+msgid "File: "
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:232
+msgid "Download"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:230
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:337
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:249
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:60
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:77
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:99
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:116
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:251
+msgid "Remove"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:228
+msgid "Select File(s)"
+msgstr ""
+
+#. translators: %s: Filename.
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:236
+msgid "%s already exists in your file queue."
+msgstr ""
+
+#. translators: %s: Upload limit.
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:239
+msgid "Maximum upload limit of %s reached/exceeded."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: includes/ReduxCore/inc/extensions/options_object/options_object/class-redux-options-object.php:102
+msgid "Options Object"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/options_object/options_object/class-redux-options-object.php:108
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "The"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "field is not supported within the Repeater field."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:242
+msgid "Add"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/search/class-redux-extension-search.php:101
+msgid "Search for field(s)"
+msgstr ""
+
+#. translators: %1$s: Widget page HTML/URL. %s: widget admin URL.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:134
+msgid "Go to the %1$s page to add the Redux Social Widget to any active widget area."
+msgstr ""
+
+#. translators: %1$s: Widget page HTML/URL. %s: widget admin URL.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:134
+msgid "Widgets"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:179
+msgid "Link URL"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:225
+msgid "Enabled"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:235
+msgid "Reset"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:242
+msgid "Text"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:255
+msgid "Background"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:30
+msgid "ADN"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:40
+msgid "Android"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:50
+msgid "Apple"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:61
+msgid "behance"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:71
+msgid "behance square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:81
+msgid "Bitbucket"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:91
+msgid "Bitbucket square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:101
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:111
+msgid "CodePen"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:121
+msgid "CSS3"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:131
+msgid "Delicious"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:141
+msgid "Deviantart"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:151
+msgid "Digg"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:161
+msgid "Dribbble"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:171
+msgid "Dropbox"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:181
+msgid "Drupal"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:191
+msgid "Empire"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:201
+msgid "Facebook"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:211
+msgid "Facebook square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:221
+msgid "Flickr"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:231
+msgid "FourSquare"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:241
+msgid "git"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:251
+msgid "git square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:261
+msgid "github"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:271
+msgid "github alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:281
+msgid "github square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:291
+msgid "git tip"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:301
+msgid "Google"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:311
+msgid "Google Plus"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:321
+msgid "Google Plus square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:331
+msgid "Hacker News"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:341
+msgid "HTML5"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:351
+msgid "Instagram"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:361
+msgid "Joomla"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:371
+msgid "JS Fiddle"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:381
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:391
+msgid "LinkedIn square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:401
+msgid "Linux"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:411
+msgid "MaxCDN"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:421
+msgid "OpenID"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:431
+msgid "Page Lines"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:441
+msgid "Pied Piper"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:451
+msgid "Pied Piper alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:461
+msgid "Pinterest"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:471
+msgid "Pinterest square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:481
+msgid "QQ"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:491
+msgid "Rebel"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:501
+msgid "Reddit"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:511
+msgid "Reddit square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:521
+msgid "Ren Ren"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:531
+msgid "Share alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:541
+msgid "Share square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:551
+msgid "Skype"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:561
+msgid "Slack"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:571
+msgid "Sound Cloud"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:581
+msgid "Spotify"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:591
+msgid "Stack Exchange"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:601
+msgid "Stack Overflow"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:611
+msgid "Steam"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:621
+msgid "Steam square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:631
+msgid "Stumble Upon"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:641
+msgid "Stumble Upon circle"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:651
+msgid "Tencent Weibo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:661
+msgid "Trello"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:671
+msgid "Tumblr"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:681
+msgid "Tumblr square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:691
+msgid "Twitter"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:701
+msgid "Twitter square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:711
+msgid "Vimeo square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:721
+msgid "Vine"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:731
+msgid "VK"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:741
+msgid "Weibo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:751
+msgid "Weixin"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:761
+msgid "Windows"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:771
+msgid "WordPress"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:781
+msgid "Xing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:791
+msgid "Xing square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:801
+msgid "Yahoo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:811
+msgid "Yelp"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:821
+msgid "YouTube"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:831
+msgid "YouTube play"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:841
+msgid "YouTube square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:102
+msgid "Display social media links"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:192
+msgid "Social"
+msgstr ""
+
+#. translators: %1$s: Settings page URL.  %2$s: Closing a tag.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:213
+msgid "Control which icons are displayed and their urls on the %1$sssettings page%2$s"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:94
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:111
+msgid "Create Widget Area"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:103
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:104
+msgid "Name"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:301
+msgid "Confirm"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:302
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:121
+#: includes/ReduxCore/inc/fields/color/class-redux-color.php:76
+#: includes/ReduxCore/inc/fields/color_gradient/class-redux-color-gradient.php:132
+msgid "Transparent"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:131
+msgid "No Repeat"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:132
+msgid "Repeat All"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:133
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:134
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:135
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:150
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:168
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:186
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:205
+msgid "Inherit"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:138
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:151
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:169
+msgid "Border Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:152
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:170
+msgid "Content Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:153
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:171
+msgid "Padding Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:156
+msgid "Background Clip"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:174
+msgid "Background Origin"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:187
+msgid "Cover"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:188
+msgid "Contain"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:191
+msgid "Background Size"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:203
+msgid "Fixed"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:204
+msgid "Scroll"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:208
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:220
+msgid "Left Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:221
+msgid "Left center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:222
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:223
+msgid "Center Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:224
+msgid "Center Center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:225
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:226
+msgid "Right Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:227
+msgid "Right center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:228
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:231
+msgid "Background Position"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:330
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:242
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:105
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:249
+msgid "Upload"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:92
+msgid "Shadow"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:111
+msgid "Horizontal Length "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:120
+msgid "Horizontal Length"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:135
+msgid "Vertical Length "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:144
+msgid "Vertical Length"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:159
+msgid "Blur Radius "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:168
+msgid "Blur Radius"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:183
+msgid "Spread "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:192
+msgid "Spread"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:131
+msgid "Active"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/select/class-redux-select.php:106
+#: includes/ReduxCore/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/select/class-redux-select.php:183
+#: includes/ReduxCore/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:48
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:233
+msgid "New %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:152
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:288
+msgid "URL"
+msgstr ""
+
+#. translators:  Content title for accordion.
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:363
+msgid "Add %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:27
+msgid "The Text field accepts any form of text and optionally validates the text before saving the value."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:323
+msgid "Font Family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:325
+msgid "Font family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:364
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:366
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:385
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:405
+msgid "Font style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:386
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:403
+msgid "Style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:418
+msgid "Font subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:426
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:429
+msgid "Subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:431
+msgid "Font script"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:445
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:446
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:448
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:450
+msgid "Text Align"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:459
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:495
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:521
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:550
+msgid "inherit"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:460
+msgid "left"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:461
+msgid "right"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:462
+msgid "center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:463
+msgid "justify"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:464
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:494
+msgid "initial"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:476
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:477
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:479
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:481
+msgid "Text Transform"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:490
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:549
+msgid "none"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:491
+msgid "capitalize"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:492
+msgid "uppercase"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:493
+msgid "lowercase"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:507
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:508
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:510
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:512
+msgid "Font Variant"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:522
+msgid "normal"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:523
+msgid "small-caps"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:535
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:536
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:538
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:540
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:551
+msgid "underline"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:552
+msgid "overline"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:553
+msgid "line-through"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:554
+msgid "blink"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:569
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:574
+msgid "Font Size"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:575
+msgid "Size"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:591
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:596
+msgid "Line Height"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:619
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:624
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:625
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:642
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:647
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:648
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:673
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:678
+msgid "Margin Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:700
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:705
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:732
+msgid "Font Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:739
+msgid "Font color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:793
+msgid "Your Google Fonts are out of date. To update them, please click one of the following:"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:794
+msgid "Automated updates"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:794
+msgid "one-time update"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:805
+msgid "Shadow Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:810
+msgid "Shadow color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:822
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:831
+msgid "Horizontal"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:839
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:848
+msgid "Vertical"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:856
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:865
+msgid "Blur"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:905
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#. translators: Aria title, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:907
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#. translators: Aria title, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:907
+msgid "Retry?"
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:909
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:909
+msgid "Reload the page"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:1341
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:1424
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:44
+msgid "Gradient Type "
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:47
+msgid "Type"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:53
+msgid "linear"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:54
+msgid "radial"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:82
+msgid "From Reach "
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:91
+msgid "From Reach"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:105
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:114
+msgid "To Reach"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:135
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:144
+msgid "Gradient Angle"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/image-filters/class-redux-image-filters.php:55
+msgid "Filters"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "RECOMMENDED"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "strongly"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "suggested that you read"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "this document"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "The following arguments MUST be used for WP.org submissions, or you will be rejected because of your Redux configuration."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:63
+msgid "It appears that you have embedded the full Redux package inside your theme. You need only embed the"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:63
+msgid "folder. Embedding anything else will get your rejected from theme submission. Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: includes/ReduxCore/inc/validation/color/class-redux-validation-color.php:34
+msgid "Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: includes/ReduxCore/inc/validation/color/class-redux-validation-color.php:46
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "If you like"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "please leave us a"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:114
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:187
+msgid "What is Redux?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:264
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:270
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:17
+#: includes/ReduxCore/inc/welcome/views/templates.php:15
+msgid "Welcome to"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:21
+#: includes/ReduxCore/inc/welcome/views/templates.php:19
+msgid "Redux is the world's most powerful and widely used WordPress interface builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:39
+msgid "Did I install this?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:43
+msgid "Maybe not! These items are using Redux. If you want to keep using them, Redux will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: includes/ReduxCore/inc/welcome/views/about.php:54
+msgid "Maybe not! If you want to see what Redux is all about, click here to %1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:81
+msgid "Version:"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:86
+#: includes/ReduxCore/inc/welcome/views/about.php:139
+msgid "By"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:93
+msgid "Theme"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:145
+msgid "Plugin"
+msgstr ""
+
+#: includes/Shortcodes/Shortcodes.php:114
+#: includes/Shortcodes/Shortcodes.php:157
+#: templates/report-member-form.php:15
+msgid "Report Member"
+msgstr ""
+
+#: includes/Shortcodes/Shortcodes.php:137
+#: templates/block-button.php:21
+#: templates/block/block-unblock-button.php:19
+msgid "Block"
+msgstr ""
+
+#: includes/Shortcodes/Shortcodes.php:138
+#: templates/block-button.php:21
+#: templates/block/block-unblock-button.php:19
+msgid "Unblock"
+msgstr ""
+
+#: includes/Utils/block_helpers.php:357
+msgctxt "Profile settings sub nav"
+msgid "Block List"
+msgstr ""
+
+#: includes/Utils/moderation_helpers.php:112
+msgid "Access denied, You are currently suspended."
+msgstr ""
+
+#: includes/Utils/report_helpers.php:124
+msgid "Other"
+msgstr ""
+
+#: templates/groups/single-home.php:64
+#: templates/profile/user-block-by-me.php:64
+#: templates/profile/user-blocked-me.php:63
+msgid "Posts"
+msgstr ""
+
+#: templates/groups/single-home.php:70
+#: templates/profile/user-block-by-me.php:70
+#: templates/profile/user-blocked-me.php:69
+msgid "Comments"
+msgstr ""
+
+#: templates/groups/single-home.php:75
+#: templates/profile/user-block-by-me.php:75
+#: templates/profile/user-blocked-me.php:74
+msgid "Views"
+msgstr ""
+
+#: templates/profile/user-block-list.php:24
+msgid "Blocked List"
+msgstr ""
+
+#: templates/profile/user-block-list.php:72
+msgid "No blocked user found !"
+msgstr ""
+
+#: templates/report-activity-form.php:29
+#: templates/report-form.php:29
+#: templates/report-member-form.php:30
+#: templates/report/report-activity-form.php:29
+#: templates/report/report-form.php:37
+msgid "Submit"
+msgstr ""
+
+#: templates/report-button.php:24
+#: templates/report/report-button.php:22
+msgid "Report limit reached"
+msgstr ""
+
+#: templates/report/report-form.php:31
+msgid "Report details(Optional)"
+msgstr ""
+
+#: templates/report/report-form.php:36
+msgid "Reported Successfully."
+msgstr ""

@@ -1,0 +1,22 @@
+{
+    "name": "iqonic/iqonic-moderation-tool",
+    "authors": [
+        {
+            "name": "Iqonic Design",
+            "email": "hello@iqonic.com"
+        }
+    ],
+    "require": {},
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "IMT\\": "./includes"
+        },
+        "files": [
+            "./includes/Utils/template_loader.php",
+            "./includes/Utils/block_helpers.php",
+            "./includes/Utils/report_helpers.php",
+            "./includes/Utils/moderation_helpers.php"
+        ]
+    }
+}

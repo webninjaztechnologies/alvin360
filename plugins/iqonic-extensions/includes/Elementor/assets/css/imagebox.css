@@ -1,0 +1,165 @@
+.socialv-image-box .socialv-image-box-img{
+    position: relative;	
+    background-color: var(--color-theme-black);
+	box-shadow: var(--global-box-shadow);
+    padding:8px;
+}
+
+.socialv-image-box .elementor-image-box-content .socialv-image-box-title a{
+    color: var(--color-theme-primary);
+}
+.socialv-image-box .elementor-image-box-content .socialv-image-box-title a:hover{
+    color: var(--color-theme-secondary);
+}
+.socialv-image-box .elementor-image-box-content .socialv-image-box-description{margin-bottom: 0;}
+
+.socialv-image-box .elementor-image-box-content{
+    margin-top:32px;
+}
+
+/* image box slider*/
+.socialv-imagebox.socialv-style1 {
+    position: relative;
+}
+
+.socialv-style1 .socialv-image-box {
+    text-align: center;
+    margin: 0 auto;
+	padding: 2em 2em 3.125em;
+}
+
+.socialv-style1 .socialv-image-box-data img {
+	width: 28em;
+    height: 15.75em;
+    object-fit: cover;
+    margin: 0 auto;
+	border-radius: var(--border-radius);
+}
+
+.socialv-style1 .socialv-image-box .images-data-info {
+    margin-top: 2em;
+}
+
+.socialv-image-box-data .title {
+	color: var(--color-theme-white);
+	font-weight: var(--font-weight-semi-bold);
+}
+
+.socialv-image-box-data .desc {
+	color: var(--color-theme-white);
+	width: 40%;
+	margin:  1em auto 0;
+}
+
+.socialv-imagebox .swiper-pagination-bullet {
+    background: #A5A8AB;
+    opacity: 1;
+}
+
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+    background: var(--color-theme-white-box);
+    width: 20px;
+    border-radius: 50px;
+}
+
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev,
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next, 
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev, 
+.socialv-imagebox .swiper .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next, 
+.socialv-imagebox .swiper .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev,
+.socialv-imagebox .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+    transform: scale(1);
+}
+
+.socialv-imagebox .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
+.socialv-imagebox .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 3px;
+}
+
+.socialv-imagebox .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, 
+.socialv-imagebox .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    width: 100% !important;
+}
+
+@media (max-width: 1300px) {
+    .socialv-image-box-data .desc {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+	.socialv-image-box-data .desc {
+		width: 70%;
+	}
+}
+
+@media (max-width: 767px) {
+	.socialv-image-box-data .desc {
+		width: 100%;
+	}
+}
+
+
+/* style 2 */
+
+.image-box-bg{
+    position: absolute;
+    left: 0;
+    top: -2px;
+    z-index: 9;
+}
+
+.image-box-bg img{
+    width: auto;
+    height: 64vh !important;
+}
+.socialv-imagebox.socialv-style2 {
+    overflow: hidden;
+    position: relative;
+}
+.socialv-image-box-slider .socialv-style2 .socialv-image-box-slider .socialv-image-box {
+    padding: 0;
+}
+.socialv-image-box-slider .socialv-style2 .swiper-slide-active .socialv-image-box{
+    position: relative;
+    padding-bottom: 1em;
+}
+.socialv-image-box-slider .socialv-style2 .image-box {
+    width: 100%;
+    background: transparent;
+}
+
+.socialv-image-box-slider .socialv-style2.socialv-imagebox {
+    max-height: 689px;
+}
+
+.socialv-image-box-slider .socialv-style2 .image-box img{
+    box-shadow: none;
+    border-radius: 30px;
+    height: 63vh;   
+}
+
+[dir="rtl"] .image-box-bg {
+    left: auto;
+    right: 0;
+}
+
+@media (max-width: 767px){
+    .image-box-bg {
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .socialv-image-box.socialv-widget-swiper .swiper-slide {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .image-box-bg img {
+        height: 55vh !important;
+    }
+    .socialv-image-box-slider .socialv-style2 .image-box img {
+        height: 55vh;
+    }
+}
+

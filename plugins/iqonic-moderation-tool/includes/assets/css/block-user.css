@@ -1,0 +1,78 @@
+.imt-member-info {
+    display: flex;
+	gap: 1em;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	background: var(--global-body-bgcolor);
+	margin-bottom: 2em;
+	border-radius: var(--border-radius-box);
+}
+
+.imt-member-info .imt-member-main {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+.imt-member-info .member-name .title {
+    margin-bottom: 0.375em;
+    margin-top: 0;
+}
+
+.imt-member-info-top {
+    line-height: normal;
+}
+
+.imt-member-info-top i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+.imt-e-last-activity, 
+.imt-e-member-location {
+    font-size: var(--font-size-normal);
+}
+
+.imt-member-info .imt-member-right {
+    text-align: center;
+    display: inline-block;
+}
+
+.imt-member-info div.friendship-button {
+    display: inline-block;
+}
+
+.imt-members-lists .item-entry:last-child .imt-member-info {
+    margin-bottom: 0;
+}
+
+#buddypress .generic-button .btn.imt-block-button,
+.imt-block-button {
+    color: var(--color-theme-white);
+    background: var(--color-theme-primary);
+    border-color: var(--color-theme-primary);
+}
+
+#buddypress .generic-button .btn.imt-block-button:hover,
+.imt-block-button:hover {
+    color: var(--color-theme-white);
+    background: var(--color-theme-primary-dark);
+    border-color: var(--color-theme-primary);
+}
+
+@media (max-width: 767px) {
+    .imt-member-right {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 479px) {
+    .imt-member-info {
+        display: block;
+    }
+    .imt-member-info {
+        padding: 1em;
+    }
+}

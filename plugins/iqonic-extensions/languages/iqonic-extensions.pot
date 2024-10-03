@@ -1,0 +1,4916 @@
+# Copyright (C) 2024 Iqonic Design
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Iqonic Extension 2.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/iqonic-extensions\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-13T14:09:41+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#. Plugin Name of the plugin
+#: iqonic-extension.php
+msgid "Iqonic Extension"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: iqonic-extension.php
+msgid "https://wordpress.iqonic.design/product/wp/socialv/"
+msgstr ""
+
+#. Description of the plugin
+#: iqonic-extension.php
+msgid "Iqonic Extension."
+msgstr ""
+
+#. Author of the plugin
+#: iqonic-extension.php
+msgid "Iqonic Design"
+msgstr ""
+
+#. Author URI of the plugin
+#: iqonic-extension.php
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: includes/Acf/General.php:422
+msgid "SocialV"
+msgstr ""
+
+#: includes/Acf/MetaBox.php:54
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:162
+msgid "Select Icon"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:91
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:109
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:104
+msgid "Submit Support Information?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: includes/Classes/Redux_Panel.php:111
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:106
+msgid "Redux will send the debug information found on the %s and your Redux config to our secure server.  Are you ready to proceed?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: includes/Classes/Redux_Panel.php:111
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:106
+msgid "WordPress Site Health screen"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:172
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:166
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1213
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:193
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:214
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:235
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:262
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:256
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:276
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:270
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1221
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1527
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:291
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:285
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1225
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:416
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:405
+msgid "Your panel has bundled copies of Redux Framework template files that are outdated!"
+msgstr ""
+
+#: includes/Classes/Redux_Panel.php:416
+#: includes/ReduxCore/inc/classes/class-redux-panel.php:405
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:10
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:403
+msgid "Style"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:14
+#: includes/ReduxCore/inc/classes/class-redux-field.php:43
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:993
+msgid "Default"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:15
+#: includes/Elementor/Controls/button_controls.php:127
+#: includes/Elementor/Elements/IconBox/Widget.php:215
+#: includes/Elementor/Elements/ImageBox/Widget.php:151
+#: includes/Elementor/Elements/Social_Icons/Widget.php:124
+#: includes/Elementor/Elements/Title/Widget.php:196
+msgid "Link"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:23
+msgid "Types"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:28
+msgid "primary"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:29
+msgid "success"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:30
+msgid "danger"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:31
+msgid "info"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:32
+msgid "warning"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:33
+msgid "orange"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:41
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:575
+#: includes/Utils/animation_helpers.php:39
+msgid "Size"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:46
+#: includes/Elementor/Controls/button_controls.php:241
+#: includes/Elementor/Controls/button_controls.php:311
+#: includes/Elementor/Controls/button_controls.php:389
+#: includes/Elementor/Controls/swiper_control.php:138
+#: includes/Elementor/Elements/Blog/Widget.php:215
+#: includes/Elementor/Elements/Blog/Widget.php:275
+#: includes/Elementor/Elements/Blog/Widget.php:335
+#: includes/Elementor/Elements/BlogSlider/Widget.php:201
+#: includes/Elementor/Elements/BlogSlider/Widget.php:261
+#: includes/Elementor/Elements/BlogSlider/Widget.php:321
+#: includes/Elementor/Elements/Counter/Widget.php:217
+#: includes/Elementor/Elements/Counter/Widget.php:301
+#: includes/Elementor/Elements/Counter/Widget.php:388
+#: includes/Elementor/Elements/Counter/Widget.php:479
+#: includes/Elementor/Elements/Counter/Widget.php:582
+#: includes/Elementor/Elements/Counter/Widget.php:902
+#: includes/Elementor/Elements/IconBox/Widget.php:257
+#: includes/Elementor/Elements/IconBox/Widget.php:473
+#: includes/Elementor/Elements/IconBox/Widget.php:559
+#: includes/Elementor/Elements/IconBox/Widget.php:610
+#: includes/Elementor/Elements/Lists/Widget.php:243
+#: includes/Elementor/Elements/Lists/Widget.php:551
+#: includes/Elementor/Elements/Testimonial/Widget.php:232
+#: includes/Elementor/Elements/Testimonial/Widget.php:335
+#: includes/Elementor/Elements/Testimonial/Widget.php:393
+#: includes/Elementor/Elements/Testimonial/Widget.php:451
+#: includes/Elementor/Elements/Testimonial/Widget.php:499
+#: includes/Elementor/Elements/Title/Widget.php:226
+msgid "Normal"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:47
+msgid "Small"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:55
+#: includes/Elementor/Elements/Social_Icons/Widget.php:139
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:242
+msgid "Text"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:61
+#: includes/Widget/recent-post.php:144
+msgid "Read More"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:68
+#: includes/Elementor/Elements/ImageBox/Widget.php:94
+msgid "Action"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:72
+#: includes/Elementor/Elements/ImageBox/Widget.php:98
+msgid "Open Popup"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:73
+#: includes/Elementor/Elements/ImageBox/Widget.php:99
+msgid "Open Link"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:74
+#: includes/Elementor/Controls/button_controls.php:485
+#: includes/Elementor/Elements/Accordion/Widget.php:387
+#: includes/Elementor/Elements/Counter/Widget.php:83
+#: includes/Elementor/Elements/Counter/Widget.php:629
+#: includes/Elementor/Elements/Counter/Widget.php:737
+#: includes/Elementor/Elements/Counter/Widget.php:921
+#: includes/Elementor/Elements/Counter/Widget.php:1005
+#: includes/Elementor/Elements/IconBox/Widget.php:789
+#: includes/Elementor/Elements/ImageBox/Widget.php:100
+#: includes/Elementor/Elements/Lists/Widget.php:299
+#: includes/Elementor/Elements/Lists/Widget.php:418
+#: includes/Elementor/Elements/Lists/Widget.php:595
+#: includes/Elementor/Elements/Lists/Widget.php:693
+#: includes/Elementor/Elements/Timer/Widget.php:312
+#: includes/Elementor/Elements/Title/Widget.php:270
+#: includes/Elementor/Elements/Title/Widget.php:373
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:490
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:549
+msgid "none"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:82
+#: includes/Elementor/Elements/IconBox/Widget.php:172
+#: includes/Elementor/Elements/ImageBox/Widget.php:108
+#: includes/Elementor/Elements/Title/Widget.php:166
+msgid "Link Type"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:86
+#: includes/Elementor/Elements/IconBox/Widget.php:176
+#: includes/Elementor/Elements/ImageBox/Widget.php:112
+#: includes/Elementor/Elements/Title/Widget.php:170
+msgid "Dynamic"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:87
+#: includes/Elementor/Elements/IconBox/Widget.php:177
+#: includes/Elementor/Elements/ImageBox/Widget.php:113
+#: includes/Elementor/Elements/Social_Icons/Widget.php:278
+#: includes/Elementor/Elements/Title/Widget.php:171
+msgid "Custom"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:96
+#: includes/Elementor/Elements/IconBox/Widget.php:186
+#: includes/Elementor/Elements/ImageBox/Widget.php:122
+#: includes/Elementor/Elements/Title/Widget.php:180
+msgid "Select Page"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:111
+#: includes/Elementor/Elements/IconBox/Widget.php:200
+#: includes/Elementor/Elements/ImageBox/Widget.php:136
+msgid "Open in new window"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:113
+#: includes/Elementor/Elements/IconBox/Widget.php:162
+#: includes/Elementor/Elements/IconBox/Widget.php:202
+#: includes/Elementor/Elements/IconBox/Widget.php:426
+#: includes/Elementor/Elements/ImageBox/Widget.php:138
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:56
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:79
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:100
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:122
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:132
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:201
+msgid "Yes"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:114
+#: includes/Elementor/Elements/IconBox/Widget.php:163
+#: includes/Elementor/Elements/IconBox/Widget.php:203
+#: includes/Elementor/Elements/IconBox/Widget.php:427
+#: includes/Elementor/Elements/ImageBox/Widget.php:139
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:57
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:80
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:101
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:123
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:133
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:202
+msgid "No"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:132
+#: includes/Elementor/Elements/IconBox/Widget.php:220
+#: includes/Elementor/Elements/ImageBox/Widget.php:156
+#: includes/Elementor/Elements/Social_Icons/Widget.php:132
+#: includes/Elementor/Elements/Title/Widget.php:201
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:146
+#: includes/Elementor/Elements/Blog/Widget.php:87
+#: includes/Elementor/Elements/BlogSlider/Widget.php:61
+#: includes/Elementor/Elements/Counter/Widget.php:178
+#: includes/Elementor/Elements/IconBox/Widget.php:332
+#: includes/Elementor/Elements/ImageBox/Widget.php:368
+#: includes/Elementor/Elements/Lists/Widget.php:196
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:692
+#: includes/Elementor/Elements/Social_Icons/Widget.php:227
+#: includes/Elementor/Elements/Timer/Widget.php:121
+#: includes/Elementor/Elements/Title/Widget.php:129
+msgid "Alignment"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:150
+#: includes/Elementor/Elements/Blog/Widget.php:91
+#: includes/Elementor/Elements/BlogSlider/Widget.php:65
+#: includes/Elementor/Elements/Counter/Widget.php:182
+#: includes/Elementor/Elements/IconBox/Widget.php:336
+#: includes/Elementor/Elements/ImageBox/Widget.php:372
+#: includes/Elementor/Elements/Lists/Widget.php:200
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:696
+#: includes/Elementor/Elements/Social_Icons/Widget.php:231
+#: includes/Elementor/Elements/Timer/Widget.php:125
+#: includes/Elementor/Elements/Title/Widget.php:133
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:159
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:271
+#: includes/Utils/animation_helpers.php:58
+msgid "Left"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:154
+#: includes/Elementor/Elements/Blog/Widget.php:95
+#: includes/Elementor/Elements/BlogSlider/Widget.php:69
+#: includes/Elementor/Elements/Counter/Widget.php:186
+#: includes/Elementor/Elements/IconBox/Widget.php:340
+#: includes/Elementor/Elements/ImageBox/Widget.php:376
+#: includes/Elementor/Elements/Lists/Widget.php:204
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:700
+#: includes/Elementor/Elements/Social_Icons/Widget.php:235
+#: includes/Elementor/Elements/Timer/Widget.php:129
+#: includes/Elementor/Elements/Title/Widget.php:137
+#: includes/Utils/animation_helpers.php:66
+msgid "Center"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:158
+#: includes/Elementor/Elements/Blog/Widget.php:99
+#: includes/Elementor/Elements/BlogSlider/Widget.php:73
+#: includes/Elementor/Elements/Counter/Widget.php:190
+#: includes/Elementor/Elements/IconBox/Widget.php:344
+#: includes/Elementor/Elements/ImageBox/Widget.php:380
+#: includes/Elementor/Elements/Lists/Widget.php:208
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:704
+#: includes/Elementor/Elements/Social_Icons/Widget.php:239
+#: includes/Elementor/Elements/Timer/Widget.php:133
+#: includes/Elementor/Elements/Title/Widget.php:141
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:135
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:239
+#: includes/Utils/animation_helpers.php:60
+msgid "Right"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:173
+msgid "Model Header"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:180
+#: includes/Elementor/Elements/Accordion/Widget.php:202
+#: includes/Elementor/Elements/Blog/Widget.php:194
+#: includes/Elementor/Elements/BlogSlider/Widget.php:180
+#: includes/Elementor/Elements/Counter/Widget.php:48
+#: includes/Elementor/Elements/Counter/Widget.php:282
+#: includes/Elementor/Elements/IconBox/Widget.php:73
+#: includes/Elementor/Elements/IconBox/Widget.php:452
+#: includes/Elementor/Elements/ImageBox/Widget.php:398
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:343
+#: includes/Elementor/Elements/Testimonial/Widget.php:53
+#: includes/Elementor/Elements/Testimonial/Widget.php:314
+#: includes/Elementor/Elements/Timer/Widget.php:49
+#: includes/Elementor/Elements/Timer/Widget.php:144
+#: includes/Elementor/Elements/Title/Widget.php:467
+#: includes/ReduxCore/inc/classes/class-redux-field.php:38
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:143
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:199
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:128
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:263
+#: includes/Widget/friend-suggestions.php:63
+#: includes/Widget/group-suggestions.php:58
+msgid "Title"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:186
+msgid "Model Title"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:194
+#: includes/Elementor/Elements/Accordion/Widget.php:296
+#: includes/Elementor/Elements/Counter/Widget.php:81
+#: includes/Elementor/Elements/Counter/Widget.php:92
+#: includes/Elementor/Elements/IconBox/Widget.php:87
+#: includes/Elementor/Elements/IconBox/Widget.php:96
+#: includes/Elementor/Elements/Lists/Widget.php:132
+#: includes/Elementor/Elements/Social_Icons/Widget.php:48
+msgid "Icon"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:208
+msgid "Model Body"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:215
+#: includes/Elementor/Elements/Counter/Widget.php:61
+#: includes/Elementor/Elements/Counter/Widget.php:458
+#: includes/Elementor/Elements/IconBox/Widget.php:146
+#: includes/Elementor/Elements/IconBox/Widget.php:538
+#: includes/Elementor/Elements/ImageBox/Widget.php:441
+#: includes/Elementor/Elements/Testimonial/Widget.php:83
+#: includes/Elementor/Elements/Testimonial/Widget.php:432
+#: includes/Elementor/Elements/Title/Widget.php:98
+#: includes/Elementor/Elements/Title/Widget.php:689
+#: includes/ReduxCore/inc/classes/class-redux-field.php:40
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:140
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:276
+msgid "Description"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:217
+msgid "Default description"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:218
+msgid "Type your description here"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:229
+msgid "Button Color"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:248
+#: includes/Elementor/Controls/button_controls.php:280
+#: includes/Elementor/Elements/Accordion/Widget.php:210
+#: includes/Elementor/Elements/Counter/Widget.php:307
+#: includes/Elementor/Elements/Counter/Widget.php:394
+#: includes/Elementor/Elements/Counter/Widget.php:485
+#: includes/Elementor/Elements/Timer/Widget.php:251
+msgid "Text Color"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:264
+#: includes/Elementor/Elements/Blog/Widget.php:203
+#: includes/Elementor/Elements/Blog/Widget.php:263
+#: includes/Elementor/Elements/Blog/Widget.php:323
+#: includes/Elementor/Elements/BlogSlider/Widget.php:189
+#: includes/Elementor/Elements/BlogSlider/Widget.php:249
+#: includes/Elementor/Elements/BlogSlider/Widget.php:309
+#: includes/Elementor/Elements/Counter/Widget.php:292
+#: includes/Elementor/Elements/Counter/Widget.php:379
+#: includes/Elementor/Elements/Counter/Widget.php:470
+#: includes/Elementor/Elements/IconBox/Widget.php:461
+#: includes/Elementor/Elements/IconBox/Widget.php:547
+#: includes/Elementor/Elements/Lists/Widget.php:233
+#: includes/Elementor/Elements/Testimonial/Widget.php:323
+#: includes/Elementor/Elements/Testimonial/Widget.php:383
+#: includes/Elementor/Elements/Testimonial/Widget.php:441
+#: includes/Elementor/Elements/Title/Widget.php:476
+#: includes/Elementor/Elements/Title/Widget.php:651
+#: includes/Elementor/Elements/Title/Widget.php:755
+msgid "Typography"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:273
+#: includes/Elementor/Controls/button_controls.php:330
+#: includes/Elementor/Controls/button_controls.php:407
+#: includes/Elementor/Controls/swiper_control.php:178
+#: includes/Elementor/Elements/Blog/Widget.php:233
+#: includes/Elementor/Elements/Blog/Widget.php:293
+#: includes/Elementor/Elements/Blog/Widget.php:353
+#: includes/Elementor/Elements/BlogSlider/Widget.php:219
+#: includes/Elementor/Elements/BlogSlider/Widget.php:279
+#: includes/Elementor/Elements/BlogSlider/Widget.php:339
+#: includes/Elementor/Elements/Counter/Widget.php:234
+#: includes/Elementor/Elements/Counter/Widget.php:318
+#: includes/Elementor/Elements/Counter/Widget.php:406
+#: includes/Elementor/Elements/Counter/Widget.php:497
+#: includes/Elementor/Elements/Counter/Widget.php:691
+#: includes/Elementor/Elements/Counter/Widget.php:985
+#: includes/Elementor/Elements/IconBox/Widget.php:289
+#: includes/Elementor/Elements/IconBox/Widget.php:491
+#: includes/Elementor/Elements/IconBox/Widget.php:577
+#: includes/Elementor/Elements/IconBox/Widget.php:629
+#: includes/Elementor/Elements/Lists/Widget.php:362
+#: includes/Elementor/Elements/Lists/Widget.php:649
+#: includes/Elementor/Elements/Testimonial/Widget.php:271
+#: includes/Elementor/Elements/Testimonial/Widget.php:353
+#: includes/Elementor/Elements/Testimonial/Widget.php:411
+#: includes/Elementor/Elements/Testimonial/Widget.php:469
+#: includes/Elementor/Elements/Testimonial/Widget.php:517
+#: includes/Elementor/Elements/Title/Widget.php:329
+#: includes/Elementor/Elements/Title/Widget.php:518
+#: includes/Elementor/Elements/Title/Widget.php:617
+#: includes/Elementor/Elements/Title/Widget.php:729
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:301
+msgid "Button Background"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:319
+#: includes/Elementor/Controls/button_controls.php:338
+#: includes/Elementor/Elements/Counter/Widget.php:224
+#: includes/Elementor/Elements/IconBox/Widget.php:265
+#: includes/Elementor/Elements/IconBox/Widget.php:297
+#: includes/Elementor/Elements/IconBox/Widget.php:618
+#: includes/Elementor/Elements/IconBox/Widget.php:637
+#: includes/Elementor/Elements/ImageBox/Widget.php:305
+#: includes/Elementor/Elements/Lists/Widget.php:263
+#: includes/Elementor/Elements/Lists/Widget.php:573
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:220
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:291
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:569
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:640
+#: includes/Elementor/Elements/Testimonial/Widget.php:507
+#: includes/Elementor/Elements/Testimonial/Widget.php:525
+#: includes/Elementor/Elements/Title/Widget.php:234
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:255
+msgid "Background"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:350
+#: includes/Elementor/Elements/Counter/Widget.php:253
+#: includes/Elementor/Elements/Counter/Widget.php:339
+#: includes/Elementor/Elements/Counter/Widget.php:427
+#: includes/Elementor/Elements/Counter/Widget.php:518
+#: includes/Elementor/Elements/Counter/Widget.php:849
+#: includes/Elementor/Elements/IconBox/Widget.php:370
+#: includes/Elementor/Elements/IconBox/Widget.php:523
+#: includes/Elementor/Elements/IconBox/Widget.php:841
+#: includes/Elementor/Elements/ImageBox/Widget.php:333
+#: includes/Elementor/Elements/Lists/Widget.php:485
+#: includes/Elementor/Elements/Lists/Widget.php:798
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:249
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:320
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:371
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:434
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:485
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:597
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:669
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:753
+#: includes/Elementor/Elements/Testimonial/Widget.php:549
+#: includes/Elementor/Elements/Timer/Widget.php:196
+#: includes/Elementor/Elements/Timer/Widget.php:355
+#: includes/Elementor/Elements/Title/Widget.php:440
+#: includes/Elementor/Elements/Title/Widget.php:562
+#: includes/Elementor/Elements/Title/Widget.php:672
+#: includes/Elementor/Elements/Title/Widget.php:776
+msgid "Padding"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:362
+#: includes/Elementor/Elements/Counter/Widget.php:266
+#: includes/Elementor/Elements/Counter/Widget.php:352
+#: includes/Elementor/Elements/Counter/Widget.php:440
+#: includes/Elementor/Elements/Counter/Widget.php:531
+#: includes/Elementor/Elements/Counter/Widget.php:862
+#: includes/Elementor/Elements/IconBox/Widget.php:357
+#: includes/Elementor/Elements/IconBox/Widget.php:510
+#: includes/Elementor/Elements/IconBox/Widget.php:828
+#: includes/Elementor/Elements/ImageBox/Widget.php:345
+#: includes/Elementor/Elements/ImageBox/Widget.php:408
+#: includes/Elementor/Elements/Lists/Widget.php:498
+#: includes/Elementor/Elements/Lists/Widget.php:811
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:260
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:331
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:382
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:445
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:496
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:608
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:680
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:764
+#: includes/Elementor/Elements/Testimonial/Widget.php:537
+#: includes/Elementor/Elements/Timer/Widget.php:184
+#: includes/Elementor/Elements/Title/Widget.php:453
+#: includes/Elementor/Elements/Title/Widget.php:550
+#: includes/Elementor/Elements/Title/Widget.php:660
+#: includes/Elementor/Elements/Title/Widget.php:763
+msgid "Margin"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:377
+msgid "Button Box Shadow"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:397
+#: includes/Elementor/Controls/button_controls.php:415
+#: includes/Elementor/Elements/IconBox/Widget.php:324
+#: includes/Elementor/Elements/ImageBox/Widget.php:326
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:241
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:312
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:590
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:661
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:428
+msgid "Button Border"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:437
+#: includes/Elementor/Elements/IconBox/Widget.php:753
+msgid "Use Custom Border?"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:440
+#: includes/Elementor/Elements/Accordion/Widget.php:77
+#: includes/Elementor/Elements/Accordion/Widget.php:103
+#: includes/Elementor/Elements/Accordion/Widget.php:114
+#: includes/Elementor/Elements/Accordion/Widget.php:367
+#: includes/Elementor/Elements/Blog/Widget.php:139
+#: includes/Elementor/Elements/Blog/Widget.php:158
+#: includes/Elementor/Elements/BlogSlider/Widget.php:113
+#: includes/Elementor/Elements/BlogSlider/Widget.php:132
+#: includes/Elementor/Elements/Counter/Widget.php:605
+#: includes/Elementor/Elements/Counter/Widget.php:713
+#: includes/Elementor/Elements/Counter/Widget.php:894
+#: includes/Elementor/Elements/IconBox/Widget.php:756
+#: includes/Elementor/Elements/Lists/Widget.php:276
+#: includes/Elementor/Elements/Lists/Widget.php:395
+#: includes/Elementor/Elements/Timer/Widget.php:292
+#: includes/Elementor/Elements/Title/Widget.php:90
+#: includes/Elementor/Elements/Title/Widget.php:157
+#: includes/Elementor/Elements/Title/Widget.php:246
+#: includes/Elementor/Elements/Title/Widget.php:350
+msgid "yes"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:441
+#: includes/Elementor/Elements/Accordion/Widget.php:78
+#: includes/Elementor/Elements/Accordion/Widget.php:104
+#: includes/Elementor/Elements/Accordion/Widget.php:115
+#: includes/Elementor/Elements/Accordion/Widget.php:368
+#: includes/Elementor/Elements/Blog/Widget.php:140
+#: includes/Elementor/Elements/Blog/Widget.php:159
+#: includes/Elementor/Elements/BlogSlider/Widget.php:114
+#: includes/Elementor/Elements/BlogSlider/Widget.php:133
+#: includes/Elementor/Elements/Counter/Widget.php:606
+#: includes/Elementor/Elements/Counter/Widget.php:714
+#: includes/Elementor/Elements/Counter/Widget.php:895
+#: includes/Elementor/Elements/IconBox/Widget.php:757
+#: includes/Elementor/Elements/Lists/Widget.php:277
+#: includes/Elementor/Elements/Lists/Widget.php:396
+#: includes/Elementor/Elements/Timer/Widget.php:293
+#: includes/Elementor/Elements/Title/Widget.php:91
+#: includes/Elementor/Elements/Title/Widget.php:158
+#: includes/Elementor/Elements/Title/Widget.php:247
+#: includes/Elementor/Elements/Title/Widget.php:351
+msgid "no"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:448
+#: includes/Elementor/Controls/swiper_control.php:164
+#: includes/Elementor/Controls/swiper_control.php:205
+#: includes/Elementor/Elements/Counter/Widget.php:643
+#: includes/Elementor/Elements/Counter/Widget.php:751
+#: includes/Elementor/Elements/IconBox/Widget.php:764
+#: includes/Elementor/Elements/Lists/Widget.php:313
+#: includes/Elementor/Elements/Lists/Widget.php:432
+#: includes/Elementor/Elements/Lists/Widget.php:609
+#: includes/Elementor/Elements/Lists/Widget.php:707
+#: includes/Elementor/Elements/Social_Icons/Widget.php:443
+#: includes/Elementor/Elements/Testimonial/Widget.php:258
+#: includes/Elementor/Elements/Testimonial/Widget.php:297
+#: includes/Elementor/Elements/Title/Widget.php:284
+#: includes/Elementor/Elements/Title/Widget.php:387
+msgid "Border Color"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:460
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:472
+#: includes/Elementor/Elements/Accordion/Widget.php:374
+#: includes/Elementor/Elements/Counter/Widget.php:613
+#: includes/Elementor/Elements/Counter/Widget.php:721
+#: includes/Elementor/Elements/Counter/Widget.php:908
+#: includes/Elementor/Elements/Counter/Widget.php:992
+#: includes/Elementor/Elements/IconBox/Widget.php:776
+#: includes/Elementor/Elements/Lists/Widget.php:283
+#: includes/Elementor/Elements/Lists/Widget.php:402
+#: includes/Elementor/Elements/Lists/Widget.php:582
+#: includes/Elementor/Elements/Lists/Widget.php:680
+#: includes/Elementor/Elements/Timer/Widget.php:299
+#: includes/Elementor/Elements/Title/Widget.php:254
+#: includes/Elementor/Elements/Title/Widget.php:357
+msgid "Border Style"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:476
+#: includes/Elementor/Elements/Accordion/Widget.php:378
+#: includes/Elementor/Elements/Counter/Widget.php:620
+#: includes/Elementor/Elements/Counter/Widget.php:728
+#: includes/Elementor/Elements/Counter/Widget.php:912
+#: includes/Elementor/Elements/Counter/Widget.php:996
+#: includes/Elementor/Elements/IconBox/Widget.php:780
+#: includes/Elementor/Elements/Lists/Widget.php:290
+#: includes/Elementor/Elements/Lists/Widget.php:409
+#: includes/Elementor/Elements/Lists/Widget.php:586
+#: includes/Elementor/Elements/Lists/Widget.php:684
+#: includes/Elementor/Elements/Timer/Widget.php:303
+#: includes/Elementor/Elements/Title/Widget.php:261
+#: includes/Elementor/Elements/Title/Widget.php:364
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:477
+#: includes/Elementor/Elements/Accordion/Widget.php:379
+#: includes/Elementor/Elements/Counter/Widget.php:621
+#: includes/Elementor/Elements/Counter/Widget.php:729
+#: includes/Elementor/Elements/Counter/Widget.php:913
+#: includes/Elementor/Elements/Counter/Widget.php:997
+#: includes/Elementor/Elements/IconBox/Widget.php:781
+#: includes/Elementor/Elements/Lists/Widget.php:291
+#: includes/Elementor/Elements/Lists/Widget.php:410
+#: includes/Elementor/Elements/Lists/Widget.php:587
+#: includes/Elementor/Elements/Lists/Widget.php:685
+#: includes/Elementor/Elements/Timer/Widget.php:304
+#: includes/Elementor/Elements/Title/Widget.php:262
+#: includes/Elementor/Elements/Title/Widget.php:365
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:478
+#: includes/Elementor/Elements/Accordion/Widget.php:380
+#: includes/Elementor/Elements/Counter/Widget.php:622
+#: includes/Elementor/Elements/Counter/Widget.php:730
+#: includes/Elementor/Elements/Counter/Widget.php:914
+#: includes/Elementor/Elements/Counter/Widget.php:998
+#: includes/Elementor/Elements/IconBox/Widget.php:782
+#: includes/Elementor/Elements/Lists/Widget.php:292
+#: includes/Elementor/Elements/Lists/Widget.php:411
+#: includes/Elementor/Elements/Lists/Widget.php:588
+#: includes/Elementor/Elements/Lists/Widget.php:686
+#: includes/Elementor/Elements/Timer/Widget.php:305
+#: includes/Elementor/Elements/Title/Widget.php:263
+#: includes/Elementor/Elements/Title/Widget.php:366
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:479
+#: includes/Elementor/Elements/Accordion/Widget.php:381
+#: includes/Elementor/Elements/Counter/Widget.php:623
+#: includes/Elementor/Elements/Counter/Widget.php:731
+#: includes/Elementor/Elements/Counter/Widget.php:915
+#: includes/Elementor/Elements/Counter/Widget.php:999
+#: includes/Elementor/Elements/IconBox/Widget.php:783
+#: includes/Elementor/Elements/Lists/Widget.php:293
+#: includes/Elementor/Elements/Lists/Widget.php:412
+#: includes/Elementor/Elements/Lists/Widget.php:589
+#: includes/Elementor/Elements/Lists/Widget.php:687
+#: includes/Elementor/Elements/Timer/Widget.php:306
+#: includes/Elementor/Elements/Title/Widget.php:264
+#: includes/Elementor/Elements/Title/Widget.php:367
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:480
+#: includes/Elementor/Elements/Accordion/Widget.php:382
+#: includes/Elementor/Elements/Counter/Widget.php:624
+#: includes/Elementor/Elements/Counter/Widget.php:732
+#: includes/Elementor/Elements/Counter/Widget.php:916
+#: includes/Elementor/Elements/Counter/Widget.php:1000
+#: includes/Elementor/Elements/IconBox/Widget.php:784
+#: includes/Elementor/Elements/Lists/Widget.php:294
+#: includes/Elementor/Elements/Lists/Widget.php:413
+#: includes/Elementor/Elements/Lists/Widget.php:590
+#: includes/Elementor/Elements/Lists/Widget.php:688
+#: includes/Elementor/Elements/Timer/Widget.php:307
+#: includes/Elementor/Elements/Title/Widget.php:265
+#: includes/Elementor/Elements/Title/Widget.php:368
+msgid "outset"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:481
+#: includes/Elementor/Elements/Accordion/Widget.php:383
+#: includes/Elementor/Elements/Counter/Widget.php:625
+#: includes/Elementor/Elements/Counter/Widget.php:733
+#: includes/Elementor/Elements/Counter/Widget.php:917
+#: includes/Elementor/Elements/Counter/Widget.php:1001
+#: includes/Elementor/Elements/IconBox/Widget.php:785
+#: includes/Elementor/Elements/Lists/Widget.php:295
+#: includes/Elementor/Elements/Lists/Widget.php:414
+#: includes/Elementor/Elements/Lists/Widget.php:591
+#: includes/Elementor/Elements/Lists/Widget.php:689
+#: includes/Elementor/Elements/Timer/Widget.php:308
+#: includes/Elementor/Elements/Title/Widget.php:266
+#: includes/Elementor/Elements/Title/Widget.php:369
+msgid "groove"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:482
+#: includes/Elementor/Elements/Accordion/Widget.php:384
+#: includes/Elementor/Elements/Counter/Widget.php:626
+#: includes/Elementor/Elements/Counter/Widget.php:734
+#: includes/Elementor/Elements/Counter/Widget.php:918
+#: includes/Elementor/Elements/Counter/Widget.php:1002
+#: includes/Elementor/Elements/IconBox/Widget.php:786
+#: includes/Elementor/Elements/Lists/Widget.php:296
+#: includes/Elementor/Elements/Lists/Widget.php:415
+#: includes/Elementor/Elements/Lists/Widget.php:592
+#: includes/Elementor/Elements/Lists/Widget.php:690
+#: includes/Elementor/Elements/Timer/Widget.php:309
+#: includes/Elementor/Elements/Title/Widget.php:267
+#: includes/Elementor/Elements/Title/Widget.php:370
+msgid "ridge"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:483
+#: includes/Elementor/Elements/Accordion/Widget.php:385
+#: includes/Elementor/Elements/Counter/Widget.php:627
+#: includes/Elementor/Elements/Counter/Widget.php:735
+#: includes/Elementor/Elements/Counter/Widget.php:919
+#: includes/Elementor/Elements/Counter/Widget.php:1003
+#: includes/Elementor/Elements/IconBox/Widget.php:787
+#: includes/Elementor/Elements/Lists/Widget.php:297
+#: includes/Elementor/Elements/Lists/Widget.php:416
+#: includes/Elementor/Elements/Lists/Widget.php:593
+#: includes/Elementor/Elements/Lists/Widget.php:691
+#: includes/Elementor/Elements/Timer/Widget.php:310
+#: includes/Elementor/Elements/Title/Widget.php:268
+#: includes/Elementor/Elements/Title/Widget.php:371
+msgid "inset"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:484
+#: includes/Elementor/Elements/Accordion/Widget.php:386
+#: includes/Elementor/Elements/Counter/Widget.php:628
+#: includes/Elementor/Elements/Counter/Widget.php:736
+#: includes/Elementor/Elements/Counter/Widget.php:920
+#: includes/Elementor/Elements/Counter/Widget.php:1004
+#: includes/Elementor/Elements/IconBox/Widget.php:788
+#: includes/Elementor/Elements/Lists/Widget.php:298
+#: includes/Elementor/Elements/Lists/Widget.php:417
+#: includes/Elementor/Elements/Lists/Widget.php:594
+#: includes/Elementor/Elements/Lists/Widget.php:692
+#: includes/Elementor/Elements/Timer/Widget.php:311
+#: includes/Elementor/Elements/Title/Widget.php:269
+#: includes/Elementor/Elements/Title/Widget.php:372
+msgid "hidden"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:497
+#: includes/Elementor/Elements/Accordion/Widget.php:434
+#: includes/Elementor/Elements/Counter/Widget.php:659
+#: includes/Elementor/Elements/Counter/Widget.php:767
+#: includes/Elementor/Elements/Counter/Widget.php:953
+#: includes/Elementor/Elements/Counter/Widget.php:1037
+#: includes/Elementor/Elements/IconBox/Widget.php:801
+#: includes/Elementor/Elements/Lists/Widget.php:329
+#: includes/Elementor/Elements/Lists/Widget.php:448
+#: includes/Elementor/Elements/Lists/Widget.php:622
+#: includes/Elementor/Elements/Lists/Widget.php:720
+#: includes/Elementor/Elements/Timer/Widget.php:340
+#: includes/Elementor/Elements/Title/Widget.php:298
+#: includes/Elementor/Elements/Title/Widget.php:403
+msgid "Border Width"
+msgstr ""
+
+#: includes/Elementor/Controls/button_controls.php:510
+#: includes/Elementor/Elements/Counter/Widget.php:675
+#: includes/Elementor/Elements/Counter/Widget.php:783
+#: includes/Elementor/Elements/IconBox/Widget.php:814
+#: includes/Elementor/Elements/ImageBox/Widget.php:314
+#: includes/Elementor/Elements/Lists/Widget.php:345
+#: includes/Elementor/Elements/Lists/Widget.php:464
+#: includes/Elementor/Elements/Lists/Widget.php:635
+#: includes/Elementor/Elements/Lists/Widget.php:733
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:229
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:300
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:578
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:649
+#: includes/Elementor/Elements/Social_Icons/Widget.php:386
+#: includes/Elementor/Elements/Timer/Widget.php:370
+#: includes/Elementor/Elements/Title/Widget.php:313
+#: includes/Elementor/Elements/Title/Widget.php:419
+msgid "Border Radius"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:8
+#: includes/Elementor/Elements/Testimonial/Widget.php:164
+msgid "Loop"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:12
+#: includes/Elementor/Controls/swiper_control.php:25
+#: includes/Elementor/Controls/swiper_control.php:38
+#: includes/Elementor/Elements/Testimonial/Widget.php:168
+#: includes/Elementor/Elements/Testimonial/Widget.php:181
+#: includes/Elementor/Elements/Testimonial/Widget.php:194
+#: includes/Elementor/Elements/Testimonial/Widget.php:207
+msgid "True"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:13
+#: includes/Elementor/Controls/swiper_control.php:26
+#: includes/Elementor/Controls/swiper_control.php:39
+#: includes/Elementor/Elements/Testimonial/Widget.php:169
+#: includes/Elementor/Elements/Testimonial/Widget.php:182
+#: includes/Elementor/Elements/Testimonial/Widget.php:195
+#: includes/Elementor/Elements/Testimonial/Widget.php:208
+msgid "False"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:21
+#: includes/Elementor/Elements/Testimonial/Widget.php:190
+msgid "Show Pagination ?"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:34
+#: includes/Elementor/Elements/Testimonial/Widget.php:177
+msgid "Show Navigation ?"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:47
+msgid "Slide Per Page"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:61
+msgid "Laptop View"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:73
+msgid "Tablet View"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:85
+msgid "Mobile View"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:98
+msgid "Auto Play Delay"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:110
+msgid "Speed"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:122
+#: includes/Elementor/Elements/Testimonial/Widget.php:216
+msgid "Space Between Slide"
+msgstr ""
+
+#: includes/Elementor/Controls/swiper_control.php:148
+#: includes/Elementor/Controls/swiper_control.php:188
+#: includes/Elementor/Elements/Testimonial/Widget.php:242
+#: includes/Elementor/Elements/Testimonial/Widget.php:281
+msgid "Navigation Icon Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/render.php:44
+#: includes/Elementor/Elements/Lists/render.php:22
+#: includes/Elementor/Elements/Lists/render.php:37
+#: includes/Elementor/Elements/Lists/render.php:53
+#: includes/Elementor/Elements/Lists/render.php:69
+msgctxt "tab_title"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:19
+msgid "iqonic_accordion"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:24
+msgid "Iqonic Accordion"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:42
+msgid "Accordion"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:51
+msgid "Question"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:53
+msgid "What is Lorem Ipsum?"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:54
+#: includes/Elementor/Elements/Lists/Widget.php:169
+#: includes/Elementor/Elements/Lists/Widget.php:170
+msgid "Tab Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:62
+msgid "Answer"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:63
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:174
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:64
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:175
+msgid "Tab Content"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:74
+msgid "Use Active?"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:85
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:184
+msgid "Tabs Items"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:90
+msgid "Tab #1"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:91
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:100
+msgid "Use Icon?"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:111
+msgid "Box Shadow?"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:122
+msgid "Active Icon"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:141
+msgid "Inactive Icon"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:160
+#: includes/Elementor/Elements/Blog/Widget.php:58
+#: includes/Elementor/Elements/BlogSlider/Widget.php:44
+#: includes/Elementor/Elements/Counter/Widget.php:158
+#: includes/Elementor/Elements/IconBox/Widget.php:129
+#: includes/Elementor/Elements/Testimonial/Widget.php:138
+#: includes/Elementor/Elements/Timer/Widget.php:60
+#: includes/Elementor/Elements/Title/Widget.php:112
+msgid "Title Tag"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:165
+#: includes/Elementor/Elements/Blog/Widget.php:62
+#: includes/Elementor/Elements/BlogSlider/Widget.php:48
+#: includes/Elementor/Elements/Counter/Widget.php:163
+#: includes/Elementor/Elements/IconBox/Widget.php:133
+#: includes/Elementor/Elements/Testimonial/Widget.php:142
+#: includes/Elementor/Elements/Timer/Widget.php:64
+#: includes/Elementor/Elements/Title/Widget.php:116
+msgid "h1"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:166
+#: includes/Elementor/Elements/Blog/Widget.php:63
+#: includes/Elementor/Elements/BlogSlider/Widget.php:49
+#: includes/Elementor/Elements/Counter/Widget.php:164
+#: includes/Elementor/Elements/IconBox/Widget.php:134
+#: includes/Elementor/Elements/Testimonial/Widget.php:143
+#: includes/Elementor/Elements/Timer/Widget.php:65
+#: includes/Elementor/Elements/Title/Widget.php:117
+msgid "h2"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:167
+#: includes/Elementor/Elements/Blog/Widget.php:64
+#: includes/Elementor/Elements/BlogSlider/Widget.php:50
+#: includes/Elementor/Elements/Counter/Widget.php:165
+#: includes/Elementor/Elements/IconBox/Widget.php:135
+#: includes/Elementor/Elements/Testimonial/Widget.php:144
+#: includes/Elementor/Elements/Timer/Widget.php:66
+#: includes/Elementor/Elements/Title/Widget.php:118
+msgid "h3"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:168
+#: includes/Elementor/Elements/Blog/Widget.php:65
+#: includes/Elementor/Elements/BlogSlider/Widget.php:51
+#: includes/Elementor/Elements/Counter/Widget.php:166
+#: includes/Elementor/Elements/IconBox/Widget.php:136
+#: includes/Elementor/Elements/Testimonial/Widget.php:145
+#: includes/Elementor/Elements/Timer/Widget.php:67
+#: includes/Elementor/Elements/Title/Widget.php:119
+msgid "h4"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:169
+#: includes/Elementor/Elements/Blog/Widget.php:66
+#: includes/Elementor/Elements/BlogSlider/Widget.php:52
+#: includes/Elementor/Elements/Counter/Widget.php:167
+#: includes/Elementor/Elements/IconBox/Widget.php:137
+#: includes/Elementor/Elements/Testimonial/Widget.php:146
+#: includes/Elementor/Elements/Timer/Widget.php:68
+#: includes/Elementor/Elements/Title/Widget.php:120
+msgid "h5"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:170
+#: includes/Elementor/Elements/Blog/Widget.php:67
+#: includes/Elementor/Elements/BlogSlider/Widget.php:53
+#: includes/Elementor/Elements/Counter/Widget.php:168
+#: includes/Elementor/Elements/IconBox/Widget.php:138
+#: includes/Elementor/Elements/Testimonial/Widget.php:147
+#: includes/Elementor/Elements/Timer/Widget.php:69
+#: includes/Elementor/Elements/Title/Widget.php:121
+msgid "h6"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:182
+msgid "Sr. Number"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:191
+msgid "Sr No Typography"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:222
+msgid "Text Active Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:234
+#: includes/Elementor/Elements/Accordion/Widget.php:282
+msgid "Background Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:246
+msgid "Active Background Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:262
+#: includes/Elementor/Elements/ImageBox/Widget.php:183
+#: includes/Elementor/Elements/ImageBox/Widget.php:360
+msgid "Content"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:270
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:304
+#: includes/Elementor/Elements/Accordion/Widget.php:403
+msgid "Active Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:316
+#: includes/Elementor/Elements/Accordion/Widget.php:418
+msgid "Inactive Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:329
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:342
+msgid "Icon Active Background Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:356
+#: includes/Elementor/Elements/Counter/Widget.php:882
+#: includes/Elementor/Elements/Timer/Widget.php:281
+msgid "Border"
+msgstr ""
+
+#: includes/Elementor/Elements/Accordion/Widget.php:364
+#: includes/Elementor/Elements/Timer/Widget.php:289
+msgid "Border?"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:16
+msgid "iqonic_before_after_image"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:21
+msgid "Iqonic Before/After image"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:37
+#: includes/Elementor/Elements/Counter/Widget.php:82
+#: includes/Elementor/Elements/IconBox/Widget.php:88
+#: includes/Elementor/Elements/ImageBox/render.php:29
+#: includes/Elementor/Elements/ImageBox/render.php:70
+#: includes/Elementor/Elements/ImageBox/Widget.php:244
+#: includes/Elementor/Elements/Lists/Widget.php:57
+#: includes/Elementor/Elements/Lists/Widget.php:148
+#: includes/Elementor/Elements/PMP_Pricing/render.php:68
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:508
+msgid "Image"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:45
+msgid "Choose Image Before"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:55
+msgid "Choose Image After"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:66
+msgid "Orientation"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:69
+#: includes/Elementor/Elements/Social_Icons/Widget.php:203
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:822
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:831
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:70
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:839
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:848
+msgid "Vertical"
+msgstr ""
+
+#: includes/Elementor/Elements/Before_After_Image/Widget.php:79
+msgid "Handle Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/render.php:122
+#: includes/Elementor/Elements/BlogSlider/render.php:130
+msgid "By:"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:20
+msgid "Iqonic Blog"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:36
+msgid "Blogs"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:43
+msgid "Grid Columns"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:47
+msgid "Blog 1 Column"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:48
+msgid "Blog 2 Columns"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:49
+msgid "Blog 3 Columns"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:50
+msgid "Blog 4 Columns"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:75
+msgid "Show Pagination"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:77
+#: includes/Elementor/Elements/IconBox/Widget.php:235
+#: includes/Elementor/Elements/IconBox/Widget.php:412
+#: includes/Elementor/Elements/Timer/Widget.php:110
+msgid "Show"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:78
+#: includes/Elementor/Elements/IconBox/Widget.php:236
+#: includes/Elementor/Elements/IconBox/Widget.php:413
+#: includes/Elementor/Elements/Timer/Widget.php:111
+msgid "Hide"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:103
+#: includes/Elementor/Elements/BlogSlider/Widget.php:77
+#: includes/Elementor/Elements/ImageBox/Widget.php:384
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:708
+msgid "Justified"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:118
+#: includes/Elementor/Elements/BlogSlider/Widget.php:92
+msgid "Post Control"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:125
+#: includes/Elementor/Elements/Blog/Widget.php:254
+#: includes/Elementor/Elements/BlogSlider/Widget.php:99
+#: includes/Elementor/Elements/BlogSlider/Widget.php:240
+msgid "Category"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:136
+#: includes/Elementor/Elements/BlogSlider/Widget.php:110
+msgid "Display Thumbnail ?"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:155
+#: includes/Elementor/Elements/BlogSlider/Widget.php:129
+msgid "Display Excerpt ?"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:166
+#: includes/Elementor/Elements/BlogSlider/Widget.php:140
+msgid "Posts Per Page"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:179
+#: includes/Elementor/Elements/BlogSlider/Widget.php:153
+msgid "Order By"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:183
+#: includes/Elementor/Elements/BlogSlider/Widget.php:157
+msgid "Descending"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:184
+#: includes/Elementor/Elements/BlogSlider/Widget.php:158
+msgid "Ascending"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:222
+#: includes/Elementor/Elements/Blog/Widget.php:240
+#: includes/Elementor/Elements/Blog/Widget.php:282
+#: includes/Elementor/Elements/Blog/Widget.php:300
+#: includes/Elementor/Elements/Blog/Widget.php:342
+#: includes/Elementor/Elements/Blog/Widget.php:360
+#: includes/Elementor/Elements/BlogSlider/Widget.php:208
+#: includes/Elementor/Elements/BlogSlider/Widget.php:226
+#: includes/Elementor/Elements/BlogSlider/Widget.php:268
+#: includes/Elementor/Elements/BlogSlider/Widget.php:286
+#: includes/Elementor/Elements/BlogSlider/Widget.php:328
+#: includes/Elementor/Elements/BlogSlider/Widget.php:346
+#: includes/Elementor/Elements/Counter/Widget.php:324
+#: includes/Elementor/Elements/Counter/Widget.php:412
+#: includes/Elementor/Elements/Counter/Widget.php:503
+#: includes/Elementor/Elements/Counter/Widget.php:697
+#: includes/Elementor/Elements/Counter/Widget.php:937
+#: includes/Elementor/Elements/Counter/Widget.php:1021
+#: includes/Elementor/Elements/ImageBox/Widget.php:421
+#: includes/Elementor/Elements/ImageBox/Widget.php:450
+#: includes/Elementor/Elements/Lists/Widget.php:249
+#: includes/Elementor/Elements/Lists/Widget.php:368
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:352
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:466
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:733
+#: includes/Elementor/Elements/Social_Icons/Widget.php:273
+#: includes/Elementor/Elements/Testimonial/Widget.php:342
+#: includes/Elementor/Elements/Testimonial/Widget.php:360
+#: includes/Elementor/Elements/Testimonial/Widget.php:400
+#: includes/Elementor/Elements/Testimonial/Widget.php:418
+#: includes/Elementor/Elements/Testimonial/Widget.php:458
+#: includes/Elementor/Elements/Testimonial/Widget.php:476
+#: includes/Elementor/Elements/Timer/Widget.php:326
+#: includes/Elementor/Elements/Title/Widget.php:493
+#: includes/Elementor/Elements/Title/Widget.php:525
+#: includes/Elementor/Elements/Title/Widget.php:593
+#: includes/Elementor/Elements/Title/Widget.php:624
+#: includes/Elementor/Elements/Title/Widget.php:698
+#: includes/Elementor/Elements/Title/Widget.php:716
+#: includes/Elementor/Elements/Title/Widget.php:736
+msgid "Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Blog/Widget.php:314
+#: includes/Elementor/Elements/BlogSlider/Widget.php:300
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:149
+msgid "Date"
+msgstr ""
+
+#: includes/Elementor/Elements/BlogSlider/Widget.php:21
+msgid "Iqonic blog slider"
+msgstr ""
+
+#: includes/Elementor/Elements/BlogSlider/Widget.php:37
+msgid "Blog slider"
+msgstr ""
+
+#: includes/Elementor/Elements/BlogSlider/Widget.php:169
+#: includes/Elementor/Elements/ImageBox/Widget.php:473
+#: includes/Elementor/Elements/Testimonial/Widget.php:157
+msgid "Slider Controls"
+msgstr ""
+
+#: includes/Elementor/Elements/Button/render.php:31
+msgctxt "button_text"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Button/render.php:83
+msgctxt "model_title"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Button/Widget.php:20
+msgid "Iqonic Button"
+msgstr ""
+
+#: includes/Elementor/Elements/Button/Widget.php:37
+#: includes/Elementor/Elements/IconBox/Widget.php:856
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:777
+msgid "Button"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/render.php:61
+msgctxt "description"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:18
+msgid "iqonic_counter"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:23
+msgid "Iqonic Counter"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:40
+msgid "Counter"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:54
+msgid "Add Your Title Text Here"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:66
+#: includes/Elementor/Elements/IconBox/Widget.php:152
+msgid "Enter Description"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:67
+#: includes/Elementor/Elements/Title/Widget.php:104
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:76
+msgid "Select Style"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:104
+#: includes/Elementor/Elements/IconBox/Widget.php:112
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:149
+#: includes/Elementor/Elements/Testimonial/Widget.php:97
+msgid "Choose Image"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:121
+msgid "Counter Content"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:126
+msgid "Enter Counter Figure Number"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:127
+msgid "100"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:134
+msgid "Counter After Content"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:139
+msgid "Enter Counter After Text"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:145
+msgid "Counter Symbol"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:150
+msgid "Enter Counter Symbol"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:151
+msgid "+"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:207
+msgid "Counter Content "
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:241
+#: includes/Elementor/Elements/Lists/Widget.php:382
+#: includes/Elementor/Elements/Lists/Widget.php:670
+#: includes/Elementor/Elements/Title/Widget.php:337
+msgid "Hover Background"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:369
+msgid "Timer"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:548
+msgid "Icon/Image"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:556
+#: includes/Elementor/Elements/IconBox/Widget.php:686
+msgid "Icon Size"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:589
+#: includes/Elementor/Elements/IconBox/Widget.php:273
+msgid "Icon Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:602
+#: includes/Elementor/Elements/Counter/Widget.php:710
+#: includes/Elementor/Elements/Counter/Widget.php:891
+#: includes/Elementor/Elements/Lists/Widget.php:273
+#: includes/Elementor/Elements/Lists/Widget.php:392
+#: includes/Elementor/Elements/Title/Widget.php:243
+#: includes/Elementor/Elements/Title/Widget.php:347
+msgid "Set Custom Border?"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:802
+#: includes/Elementor/Elements/IconBox/Widget.php:695
+#: includes/Elementor/Elements/ImageBox/Widget.php:252
+#: includes/Elementor/Elements/Lists/Widget.php:750
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:516
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:825
+#: includes/Elementor/Elements/IconBox/Widget.php:383
+#: includes/Elementor/Elements/IconBox/Widget.php:723
+#: includes/Elementor/Elements/ImageBox/Widget.php:278
+#: includes/Elementor/Elements/Lists/Widget.php:773
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:542
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:173
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:597
+msgid "Height"
+msgstr ""
+
+#: includes/Elementor/Elements/Counter/Widget.php:969
+#: includes/Elementor/Elements/Counter/Widget.php:1053
+msgid "Border radius"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:23
+msgid "Iqonic IconBox"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:42
+msgid "Icon Box Style"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:49
+msgid "Icon Box Styles"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:53
+#: includes/Elementor/Elements/ImageBox/Widget.php:54
+msgid "Style 1"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:54
+#: includes/Elementor/Elements/ImageBox/Widget.php:55
+msgid "Style 2"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:55
+msgid "Style 3"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:66
+msgid "IconBox"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:75
+msgid "Design"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:83
+msgid "Icon / Image"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:148
+msgid "Vitae, amet gravida lacinia purus lectus. Enim elit commodo magna leo vel lacus. "
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:160
+msgid "Use Link"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:233
+msgid "Show Button"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:247
+msgid "Icon Box"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:306
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:410
+#: includes/Elementor/Elements/Social_Icons/Widget.php:458
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:422
+msgid "Use Dot"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:439
+msgid "Dot Color"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:480
+#: includes/Elementor/Elements/IconBox/Widget.php:498
+#: includes/Elementor/Elements/Timer/Widget.php:162
+msgid "Title Color"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:566
+#: includes/Elementor/Elements/IconBox/Widget.php:584
+msgid "Description Color"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:598
+msgid "Image / Icon"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:649
+msgid "Icon Background Size"
+msgstr ""
+
+#: includes/Elementor/Elements/IconBox/Widget.php:658
+msgid "Icon background size"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/render.php:76
+msgctxt "description_text"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:28
+msgid "Iqonic Image Box"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:44
+msgid "Image Box"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:50
+msgid "Styles"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:63
+msgid "Choose Center Image"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:79
+msgid "Choose  Image"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:169
+#: includes/Elementor/Elements/Lists/Widget.php:167
+msgid "Title & Description"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:174
+msgid "This is the heading"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:175
+msgid "Enter your title"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:188
+#: includes/Elementor/Elements/ImageBox/Widget.php:205
+#: includes/Elementor/Elements/ImageBox/Widget.php:209
+#: includes/Elementor/Elements/ImageBox/Widget.php:213
+msgid "It is a long established fact that a reader will be distracted by the readable content."
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:189
+msgid "Enter your description"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:199
+msgid "ImageBox List"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:204
+#: includes/Elementor/Elements/ImageBox/Widget.php:208
+#: includes/Elementor/Elements/ImageBox/Widget.php:212
+msgid "Connect with the world"
+msgstr ""
+
+#: includes/Elementor/Elements/ImageBox/Widget.php:222
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:20
+msgid "iqonic_lists"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:25
+msgid "Iqonic Lists"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:42
+msgid "Lists"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:49
+#: includes/Elementor/Elements/Lists/Widget.php:67
+#: includes/Elementor/Elements/Lists/Widget.php:92
+msgid "List Style"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:54
+msgid "Order List"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:55
+msgid "Unorder List"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:56
+msgid "icon"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:71
+msgid "Decimal"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:72
+msgid "Decimal Leading Zero"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:73
+msgid "Lower Alpha"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:74
+msgid "Lower Greek"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:75
+msgid "Lower Latin"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:76
+msgid "Lower Roman"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:77
+msgid "Upper Alpha"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:78
+msgid "Upper Roman"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:96
+#: includes/Elementor/Elements/Social_Icons/Widget.php:219
+msgid "Circle"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:97
+msgid "Disc"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:98
+#: includes/Elementor/Elements/Social_Icons/Widget.php:218
+msgid "Square"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:113
+msgid "No. Of column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:118
+msgid "1 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:119
+msgid "2 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:120
+msgid "3 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:121
+msgid "4 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:122
+msgid "5 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:123
+msgid "6 column"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:179
+msgid "Lists Items"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:184
+msgid "List Items"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:224
+msgid "List"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:517
+msgid "List Icon/Image"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:525
+msgid "Icon Size <br> <span style=\"color: #5bc0de\"> (Note : working only for icon) </span>"
+msgstr ""
+
+#: includes/Elementor/Elements/Lists/Widget.php:559
+#: includes/Elementor/Elements/Lists/Widget.php:656
+msgid "Choose Color <br> <span style=\"color: #5bc0de\"> (Note : working only for icon) </span>"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/render.php:16
+msgid "Month"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/render.php:47
+msgid "active"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/render.php:88
+msgid "Now and "
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/render.php:131
+msgid "Signup has been disabled for this plan"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:22
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:37
+msgid "PMP Pricing Plan"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:44
+msgid "Select PMP Pricing Plan To Display"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:54
+msgid "Apply Discount Code Directly At Checkout"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:64
+msgid "Select Discount Code"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:77
+msgid "Show Sale Price"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:87
+msgid "Enter Sale Price"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:98
+msgid "Show Discount Banner"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:108
+msgid "Enter Discount Text"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:110
+msgid "Save 20%"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:120
+msgid "Show Description"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:130
+msgid "Show Expiration Information (if any)"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:140
+msgid "Text to display when account already exists with the selected plan"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:143
+msgid "My Account"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:189
+msgid "Lorem ipsum"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:199
+msgid "Use Custom Button ? "
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:211
+msgid "Pricing plan Main Box"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:273
+msgid "Pricing Plan Header"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:281
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:630
+msgid "BOX"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:394
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:403
+msgid "Price"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:415
+msgid "Discount Price Color"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:457
+msgid "Expire Plan"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:622
+msgid "Pricing Plan Content"
+msgstr ""
+
+#: includes/Elementor/Elements/PMP_Pricing/Widget.php:721
+msgid "Icon/Image Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/render.php:76
+msgctxt "social_text"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:22
+msgid "Iqonic Social Icons"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:39
+#: includes/Elementor/Elements/Social_Icons/Widget.php:152
+#: includes/Elementor/Elements/Social_Icons/Widget.php:265
+msgid "Social Icons"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:161
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:201
+#: includes/Widget/social_media.php:46
+msgid "Facebook"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:168
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:691
+#: includes/Widget/social_media.php:47
+msgid "Twitter"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:175
+msgid "Youtube"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:185
+msgid "Layout"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:189
+msgid "Only Icons"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:190
+msgid "Only Names"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:191
+msgid "Icon + name"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:199
+#: includes/Utils/animation_helpers.php:54
+msgid "Position"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:204
+msgid "Verticle"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:213
+msgid "Shape"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:217
+msgid "Rounded"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:254
+msgid "View"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:277
+msgid "Official Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:290
+#: includes/Elementor/Elements/Social_Icons/Widget.php:408
+msgid "Primary Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:305
+#: includes/Elementor/Elements/Social_Icons/Widget.php:424
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:321
+msgid "Icon size"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:343
+msgid "Spacing"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:363
+msgid "Rows Gap"
+msgstr ""
+
+#: includes/Elementor/Elements/Social_Icons/Widget.php:400
+msgid "Icon Hover"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/render.php:49
+msgid "iqonic-user"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/render.php:54
+msgctxt "testi_title"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/render.php:59
+msgctxt "testi_designation"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/render.php:62
+msgctxt "testi_company"
+msgid "%s"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:25
+#: includes/Elementor/Elements/Testimonial/Widget.php:43
+msgid "Iqonic Testimonial"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:55
+#: includes/Elementor/Elements/Testimonial/Widget.php:116
+msgid "Floyd Miles"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:63
+#: includes/Elementor/Elements/Testimonial/Widget.php:374
+msgid "Designation"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:65
+#: includes/Elementor/Elements/Testimonial/Widget.php:122
+msgid "UX Engineer"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:73
+msgid "Company name"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:75
+#: includes/Elementor/Iqonic_Extension_Elementor.php:66
+msgid "Iqonic"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:89
+#: includes/Elementor/Elements/Title/Widget.php:103
+msgid "Enter Title Description"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:90
+#: includes/Elementor/Elements/Testimonial/Widget.php:118
+#: includes/Elementor/Elements/Testimonial/Widget.php:123
+#: includes/Elementor/Elements/Testimonial/Widget.php:128
+msgid "Egestas nunc, elementum ut consectetur faucibus vulputate. Massa purus feugiat massa vivamus viverra senectus."
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:111
+msgid "Testimonial List"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:117
+msgid "Web Developer"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:121
+msgid "Richard Villiom"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:126
+msgid "Denver Mark"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:127
+msgid "Software Engineer"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:203
+msgid "Show Scrollbar ?"
+msgstr ""
+
+#: includes/Elementor/Elements/Testimonial/Widget.php:490
+msgid "General Options"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:24
+msgid "Iqonic Timer"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:42
+msgid "Count Down Timer"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:52
+msgid "Default title"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:53
+msgid "Type your title here"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:77
+msgid "Select Date"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:91
+msgid "Select Format"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:95
+msgid "Year / Month / Day / Hour / Minute / Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:96
+msgid "Month / Day/ Hour / Minute / Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:97
+msgid "Day / Hour / Minute / Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:98
+msgid " Hour / Minute / Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:99
+msgid "Minute / Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:100
+msgid " Second"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:108
+msgid "Show Labels"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:153
+msgid " Title Typography"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:173
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:210
+msgid "Timer Text"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:219
+msgid " Number Typography"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:229
+msgid " Period Typography"
+msgstr ""
+
+#: includes/Elementor/Elements/Timer/Widget.php:238
+msgid "Timer Color"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:23
+msgid "Iqonic Section Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:40
+#: includes/Elementor/Elements/Title/Widget.php:47
+#: includes/Elementor/Elements/Title/Widget.php:53
+msgid "Section Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:61
+#: includes/Elementor/Elements/Title/Widget.php:67
+msgid "Section Sub Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:74
+msgid "Sub Title Position"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:78
+msgid "Before Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:79
+msgid "After Title"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:87
+msgid "Has Description?"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:154
+msgid "Use Link ?"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:217
+msgid "Title Box"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:486
+#: includes/Elementor/Elements/Title/Widget.php:586
+#: includes/Elementor/Elements/Title/Widget.php:709
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:522
+msgid "normal"
+msgstr ""
+
+#: includes/Elementor/Elements/Title/Widget.php:576
+msgid "Sub Title"
+msgstr ""
+
+#: includes/Elementor/Iqonic_Extension_Elementor.php:427
+msgid "Regenerate Iqonic Scripts"
+msgstr ""
+
+#: includes/Elementor/Iqonic_Extension_Elementor.php:435
+msgid "Regenerate Current Page Scripts"
+msgstr ""
+
+#: includes/Elementor/Iqonic_Extension_Elementor.php:443
+msgid "Regenerate All Pages Scripts"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:321
+msgid "The Redux upload directory"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:327
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:328
+msgid "Debug information specific to Redux Framework."
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:331
+#: includes/ReduxCore/inc/welcome/views/about.php:25
+#: includes/ReduxCore/inc/welcome/views/about.php:131
+#: includes/ReduxCore/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:335
+msgid "Installation"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:339
+msgid "Data directory"
+msgstr ""
+
+#: includes/ReduxCore/class-redux-core.php:343
+msgid "Browser"
+msgstr ""
+
+#. translators: %s = Instance name.
+#: includes/ReduxCore/class-redux-core.php:376
+msgid "Redux Instance: %s"
+msgstr ""
+
+#. translators: %s = Instance name w/ HTML.
+#: includes/ReduxCore/class-redux-core.php:378
+msgid "Debug information for the %s Redux instance."
+msgstr ""
+
+#: includes/ReduxCore/framework.php:442
+#: includes/ReduxCore/framework.php:451
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-admin-notices.php:136
+msgid "Dismiss"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:42
+#: includes/ReduxCore/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:52
+#: includes/ReduxCore/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-ajax-save.php:114
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:144
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: includes/ReduxCore/inc/classes/class-redux-api.php:147
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:376
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:756
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-api.php:773
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-metaboxes-api.php:448
+msgid "Unable to create a section due an empty section array or the section variable passed was not an array."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: includes/ReduxCore/inc/classes/class-redux-args.php:266
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:267
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:319
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:114
+msgid "Redux"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:274
+#: includes/ReduxCore/inc/classes/class-redux-args.php:278
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:994
+msgid "Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:340
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:341
+msgid "There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:342
+#: includes/ReduxCore/inc/classes/class-redux-args.php:359
+msgid "argument.  This is sample data.  Please change or remove this data before shipping your product."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:357
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-args.php:358
+msgid "There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:127
+msgid "Please wait a few minutes, then try refreshing the page. Unable to load some remotely hosted scripts."
+msgstr ""
+
+#. translators: %s: URL.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:130
+msgid "If you are developing offline, please download and install the %s plugin/extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:134
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:182
+msgid "The %1$s (or extension) is either not installed or not activated and thus, some controls may not render properly.  Please ensure that it is installed and %2$s"
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: includes/ReduxCore/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:200
+msgid "Error: Install URL for Extendify could not be located."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:221
+msgid "Install process for Extendify failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:236
+msgid "Extendify activation failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:244
+msgid "Extendify installed and activated."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:385
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:399
+msgid "Visit our website to learn more!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:409
+msgid "Action needed to continue using the template library."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:412
+msgid "The Extendify Library of Patterns and Templates has been unbundled from the Redux Options Framework to give our users more control over their WordPress experience. To continue using the Extendify Library click Install & Activate below."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:422
+msgid "Install and Activate Extendify"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-connection-banner.php:445
+msgid "<strong>Redux is activated!</strong> Each site on your network must be connected individually by an admin on that site."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:626
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:719
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:642
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:720
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:658
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:674
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:721
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:690
+msgid "Your current options will be replaced with the values of this import. Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:705
+msgid "Please Wait"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:717
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-enqueue.php:721
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: includes/ReduxCore/inc/classes/class-redux-extension-abstract.php:221
+msgid "This field will not render in your option panel, and features of this extension will not be available until the latest version of Redux Framework has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: includes/ReduxCore/inc/classes/class-redux-extensions.php:96
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "File Permission Issues"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "We were unable to modify required files. Please ensure that %1$s has the proper read-write permissions, or modify your wp-config.php file to contain your FTP login credentials as %2$s."
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:142
+#: includes/ReduxCore/inc/classes/class-redux-filesystem.php:436
+msgid "outlined here"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-health.php:52
+msgid "Security token"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-health.php:87
+msgid "Data transmit"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-helpers.php:733
+msgid "version"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-helpers.php:733
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:174
+msgid "Enable"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:179
+msgid "Disable"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:186
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:188
+msgid "clicking"
+msgstr ""
+
+#. translators: %1$s: Mouse action.  %2$s: Hint status.
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:193
+msgid "Hints are tooltips that popup when %1$s the hint icon, offering addition information about the field in which they appear.  They can be %2$s by using the link below."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:198
+msgid "Hints"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:214
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: includes/ReduxCore/inc/classes/class-redux-page-render.php:517
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-rest-api-builder.php:68
+#: includes/ReduxCore/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#. translators: Number of years
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:99
+msgid "%s years"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:101
+msgid "a year"
+msgstr ""
+
+#. translators: Number of weeks
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:108
+msgid "%s weeks"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:110
+msgid "a week"
+msgstr ""
+
+#. translators: Number of days
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:117
+msgid "%s days"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:119
+msgid "a day"
+msgstr ""
+
+#. translators: Number of hours
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:126
+msgid "%s hours"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:128
+msgid "an hour"
+msgstr ""
+
+#. translators: Number of minutes
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:135
+msgid "%s minutes"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:137
+msgid "a minute"
+msgstr ""
+
+#. translators: Number of seconds
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:144
+msgid "%s seconds"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:146
+msgid "a second"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:278
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:282
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:285
+msgid "You have been using %1$s for %2$s now. Would you mind leaving a review to let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:289
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-user-feedback.php:290
+msgid "No thanks / I already have"
+msgstr ""
+
+#: includes/ReduxCore/inc/classes/class-redux-wordpress-data.php:358
+msgid "[unassigned]"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:743
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:744
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/class-redux-extension-customizer.php:745
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:109
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:231
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:138
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:197
+msgid "You are customizing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:193
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:181
+msgid "Back"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-panel.php:204
+msgid "Help"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:98
+msgid "Press return or enter to expand"
+msgstr ""
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the section title in the Customizer
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:144
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:146
+msgid "Customizing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/customizer/inc/class-redux-customizer-section.php:175
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:250
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:308
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:325
+msgid "Unable to delete font file(s)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:441
+msgid "Attachment does not exist."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:485
+msgid "Unzipping failed."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:561
+msgid "File type not recognized."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:569
+msgid "Unidentified error."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:598
+msgid "The font format .eot is not supported."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:622
+msgid "No valid font file was found."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:674
+msgid "Your font could not be converted at this time. Please try again later."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:712
+msgid "ZIP error. Your font could not be converted at this time. Please try again later."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:881
+#: includes/ReduxCore/inc/extensions/custom_fonts/class-redux-extension-custom-fonts.php:890
+msgid "Font Control"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:79
+msgid "Error"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:99
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:167
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:219
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:393
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:300
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:215
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:351
+msgid "Delete"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:109
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:112
+msgid "Add Font"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:111
+msgid "No Custom Fonts Found"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:177
+msgid "There was an error deleting your font:"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:178
+msgid "Unzipping archive and generating any missing font files."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:179
+msgid "Converting font file(s)..."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:180
+msgid "The only file(s) imported were those uploaded.  Please refresh the page to continue (making note of any errors before doing so, please)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:181
+msgid "An unknown error occurred. Please try again."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:182
+msgid "Conversion complete.  Refreshing page..."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:183
+msgid "Choose Font file or ZIP of font files."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/custom_fonts/custom_fonts/class-redux-custom-fonts.php:184
+msgid "Update"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:150
+msgid "Time"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/datetime/datetime/class-redux-datetime.php:152
+msgid "Date / Time"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:118
+msgid "Enter your address"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:119
+msgid "Left mouse down on top of me to move me!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:120
+msgid "The returned place contains no geometric data."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:180
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:106
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:183
+msgid "Place"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:186
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:204
+msgid "Address"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:189
+msgid "Geo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:216
+msgid "Street"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:230
+msgid "City"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:244
+msgid "State"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:258
+msgid "ZIP Code"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:272
+msgid "Country"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:286
+msgid "Latitude"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:300
+msgid "Longitude"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:314
+msgid "Marker Info"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:327
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:331
+msgid "Get an API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:332
+msgid "Google Map Usage Limits"
+msgstr ""
+
+#. translators: %1$s: Google Maps API Key url. %2$s: Google Maps Usage URL.
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:335
+msgid "Google Maps supports 25,000 free map loads per 24 hours for 90 consecutive days.  In the events you run a high volume site, you may need to obtain an API Key to continue using Google Map output beyond the free quota.  To sign up for an API Key, please visit the %1$s site.  For more information about Google Map usage limits, please visit the %2$s guide."
+msgstr ""
+
+#. translators: %1$s: Google Maps API Key url. %2$s: Google Maps Usage URL.
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:335
+msgid "Once you have obtained an API Key, please enter it in the text box below and save the options panel."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/google_maps/google_maps/class-redux-google-maps.php:338
+msgid "API Key"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:78
+msgid "Import Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:84
+msgid "Import from Clipboard"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:90
+msgid "Upload file"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:97
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:110
+msgid "Import"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:113
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:121
+msgid "Export Options"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:125
+msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:132
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:134
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:133
+msgid "Copied!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:137
+msgid "Export File"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/import_export/import_export/class-redux-import-export.php:169
+msgid "Your panel has unchanged values, would you like to save them now?"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1230
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1533
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/metaboxes/class-redux-metaboxes-api.php:636
+msgid "Unable to create a box due an empty box array or the box variable passed was not an array."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:32
+msgid "Add or Upload File(s)"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:123
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:229
+msgid "Remove Image"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:146
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:231
+msgid "File: "
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:232
+msgid "Download"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:230
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:337
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:249
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:60
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:77
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:99
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:116
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:251
+#: includes/Widget/friend-suggestions.php:203
+#: includes/Widget/group-suggestions.php:213
+msgid "Remove"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:228
+msgid "Select File(s)"
+msgstr ""
+
+#. translators: %s: Filename.
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:236
+msgid "%s already exists in your file queue."
+msgstr ""
+
+#. translators: %s: Upload limit.
+#: includes/ReduxCore/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:239
+msgid "Maximum upload limit of %s reached/exceeded."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: includes/ReduxCore/inc/extensions/options_object/options_object/class-redux-options-object.php:102
+msgid "Options Object"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/options_object/options_object/class-redux-options-object.php:108
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "The"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "field is not supported within the Repeater field."
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/repeater/repeater/class-redux-repeater.php:242
+#: includes/Widget/friend-suggestions.php:202
+msgid "Add"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/search/class-redux-extension-search.php:101
+msgid "Search for field(s)"
+msgstr ""
+
+#. translators: %1$s: Widget page HTML/URL. %s: widget admin URL.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:134
+msgid "Go to the %1$s page to add the Redux Social Widget to any active widget area."
+msgstr ""
+
+#. translators: %1$s: Widget page HTML/URL. %s: widget admin URL.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:134
+msgid "Widgets"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:179
+msgid "Link URL"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:225
+msgid "Enabled"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/class-redux-social-profiles.php:235
+msgid "Reset"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:30
+msgid "ADN"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:40
+msgid "Android"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:50
+msgid "Apple"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:61
+msgid "behance"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:71
+msgid "behance square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:81
+msgid "Bitbucket"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:91
+msgid "Bitbucket square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:101
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:111
+msgid "CodePen"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:121
+msgid "CSS3"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:131
+msgid "Delicious"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:141
+msgid "Deviantart"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:151
+msgid "Digg"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:161
+#: includes/Widget/social_media.php:51
+msgid "Dribbble"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:171
+msgid "Dropbox"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:181
+msgid "Drupal"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:191
+msgid "Empire"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:211
+msgid "Facebook square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:221
+msgid "Flickr"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:231
+msgid "FourSquare"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:241
+msgid "git"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:251
+msgid "git square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:261
+msgid "github"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:271
+msgid "github alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:281
+msgid "github square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:291
+msgid "git tip"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:301
+msgid "Google"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:311
+msgid "Google Plus"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:321
+msgid "Google Plus square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:331
+msgid "Hacker News"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:341
+msgid "HTML5"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:351
+#: includes/Widget/social_media.php:48
+msgid "Instagram"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:361
+msgid "Joomla"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:371
+msgid "JS Fiddle"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:381
+#: includes/Widget/social_media.php:49
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:391
+msgid "LinkedIn square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:401
+msgid "Linux"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:411
+msgid "MaxCDN"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:421
+msgid "OpenID"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:431
+msgid "Page Lines"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:441
+msgid "Pied Piper"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:451
+msgid "Pied Piper alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:461
+#: includes/Widget/social_media.php:50
+msgid "Pinterest"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:471
+msgid "Pinterest square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:481
+msgid "QQ"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:491
+msgid "Rebel"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:501
+msgid "Reddit"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:511
+msgid "Reddit square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:521
+msgid "Ren Ren"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:531
+msgid "Share alt"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:541
+msgid "Share square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:551
+msgid "Skype"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:561
+msgid "Slack"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:571
+msgid "Sound Cloud"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:581
+msgid "Spotify"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:591
+msgid "Stack Exchange"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:601
+msgid "Stack Overflow"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:611
+msgid "Steam"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:621
+msgid "Steam square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:631
+msgid "Stumble Upon"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:641
+msgid "Stumble Upon circle"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:651
+msgid "Tencent Weibo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:661
+msgid "Trello"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:671
+msgid "Tumblr"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:681
+msgid "Tumblr square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:701
+msgid "Twitter square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:711
+msgid "Vimeo square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:721
+msgid "Vine"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:731
+msgid "VK"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:741
+msgid "Weibo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:751
+msgid "Weixin"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:761
+msgid "Windows"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:771
+msgid "WordPress"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:781
+msgid "Xing"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:791
+msgid "Xing square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:801
+msgid "Yahoo"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:811
+msgid "Yelp"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:821
+msgid "YouTube"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:831
+msgid "YouTube play"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-defaults.php:841
+msgid "YouTube square"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:102
+msgid "Display social media links"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:192
+msgid "Social"
+msgstr ""
+
+#. translators: %1$s: Settings page URL.  %2$s: Closing a tag.
+#: includes/ReduxCore/inc/extensions/social_profiles/social_profiles/inc/class-redux-social-profiles-widget.php:213
+msgid "Control which icons are displayed and their urls on the %1$sssettings page%2$s"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:94
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:111
+msgid "Create Widget Area"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:103
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:104
+msgid "Name"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:301
+msgid "Confirm"
+msgstr ""
+
+#: includes/ReduxCore/inc/extensions/widget_areas/class-redux-widget-areas.php:302
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:121
+#: includes/ReduxCore/inc/fields/color/class-redux-color.php:76
+#: includes/ReduxCore/inc/fields/color_gradient/class-redux-color-gradient.php:132
+msgid "Transparent"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:131
+msgid "No Repeat"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:132
+msgid "Repeat All"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:133
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:134
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:135
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:150
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:168
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:186
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:205
+msgid "Inherit"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:138
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:151
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:169
+msgid "Border Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:152
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:170
+msgid "Content Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:153
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:171
+msgid "Padding Box"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:156
+msgid "Background Clip"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:174
+msgid "Background Origin"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:187
+msgid "Cover"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:188
+msgid "Contain"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:191
+msgid "Background Size"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:203
+msgid "Fixed"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:204
+msgid "Scroll"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:208
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:220
+msgid "Left Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:221
+msgid "Left center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:222
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:223
+msgid "Center Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:224
+msgid "Center Center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:225
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:226
+msgid "Right Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:227
+msgid "Right center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:228
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:231
+msgid "Background Position"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:285
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/background/class-redux-background.php:330
+#: includes/ReduxCore/inc/fields/media/class-redux-media.php:242
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:105
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:249
+msgid "Upload"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:123
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:223
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:679
+#: includes/Utils/animation_helpers.php:59
+msgid "Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:147
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:255
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:706
+#: includes/Utils/animation_helpers.php:61
+msgid "Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:92
+msgid "Shadow"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:111
+msgid "Horizontal Length "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:120
+msgid "Horizontal Length"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:135
+msgid "Vertical Length "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:144
+msgid "Vertical Length"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:159
+msgid "Blur Radius "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:168
+msgid "Blur Radius"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:183
+msgid "Spread "
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/box_shadow/class-redux-box-shadow.php:192
+msgid "Spread"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:194
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:198
+#: includes/ReduxCore/inc/fields/dimensions/class-redux-dimensions.php:200
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:282
+#: includes/ReduxCore/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:131
+#: includes/Widget/recently-active-members.php:82
+msgid "Active"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/password/class-redux-password.php:53
+#: includes/Shortcode/user-login.php:61
+#: includes/Shortcode/user-register.php:193
+#: includes/Shortcode/user-register.php:196
+msgid "Password"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/password/class-redux-password.php:54
+#: includes/Shortcode/user-login.php:54
+#: includes/Shortcode/user-register.php:175
+#: includes/Shortcode/user-register.php:178
+msgid "Username"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/select/class-redux-select.php:106
+#: includes/ReduxCore/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/select/class-redux-select.php:183
+#: includes/ReduxCore/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:48
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:233
+msgid "New %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:152
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:288
+msgid "URL"
+msgstr ""
+
+#. translators:  Content title for accordion.
+#: includes/ReduxCore/inc/fields/slides/class-redux-slides.php:363
+msgid "Add %s"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:27
+msgid "The Text field accepts any form of text and optionally validates the text before saving the value."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:323
+msgid "Font Family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:325
+msgid "Font family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:364
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:366
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:385
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:405
+msgid "Font style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:386
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:418
+msgid "Font subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:426
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:429
+msgid "Subsets"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:431
+msgid "Font script"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:445
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:446
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:448
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:450
+msgid "Text Align"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:459
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:495
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:521
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:550
+msgid "inherit"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:460
+msgid "left"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:461
+msgid "right"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:462
+msgid "center"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:463
+msgid "justify"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:464
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:494
+msgid "initial"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:476
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:477
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:479
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:481
+msgid "Text Transform"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:491
+msgid "capitalize"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:492
+msgid "uppercase"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:493
+msgid "lowercase"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:507
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:508
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:510
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:512
+msgid "Font Variant"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:523
+msgid "small-caps"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:535
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:536
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:538
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:540
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:551
+msgid "underline"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:552
+msgid "overline"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:553
+msgid "line-through"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:554
+msgid "blink"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:569
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:574
+msgid "Font Size"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:591
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:596
+msgid "Line Height"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:619
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:624
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:625
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:642
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:647
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:648
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:673
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:678
+msgid "Margin Top"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:700
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:705
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:732
+msgid "Font Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:739
+msgid "Font color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:793
+msgid "Your Google Fonts are out of date. To update them, please click one of the following:"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:794
+msgid "Automated updates"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:794
+msgid "one-time update"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:805
+msgid "Shadow Color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:810
+msgid "Shadow color"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:856
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:865
+msgid "Blur"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:905
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#. translators: Aria title, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:907
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#. translators: Aria title, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:907
+msgid "Retry?"
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:909
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:909
+msgid "Reload the page"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:1341
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/fields/typography/class-redux-typography.php:1424
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:44
+msgid "Gradient Type "
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:47
+msgid "Type"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:53
+msgid "linear"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:54
+msgid "radial"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:82
+msgid "From Reach "
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:91
+msgid "From Reach"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:105
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:114
+msgid "To Reach"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:135
+#: includes/ReduxCore/inc/lib/gradient-filters/class-redux-gradient-filters.php:144
+msgid "Gradient Angle"
+msgstr ""
+
+#: includes/ReduxCore/inc/lib/image-filters/class-redux-image-filters.php:55
+msgid "Filters"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "RECOMMENDED"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "strongly"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "suggested that you read"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "this document"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "The following arguments MUST be used for WP.org submissions, or you will be rejected because of your Redux configuration."
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:63
+msgid "It appears that you have embedded the full Redux package inside your theme. You need only embed the"
+msgstr ""
+
+#: includes/ReduxCore/inc/themecheck/checks/class-redux-full-package.php:63
+msgid "folder. Embedding anything else will get your rejected from theme submission. Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: includes/ReduxCore/inc/validation/color/class-redux-validation-color.php:34
+msgid "Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: includes/ReduxCore/inc/validation/color/class-redux-validation-color.php:46
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: includes/ReduxCore/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "If you like"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "please leave us a"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:97
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:114
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:187
+msgid "What is Redux?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:264
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/class-redux-welcome.php:270
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:17
+#: includes/ReduxCore/inc/welcome/views/templates.php:15
+msgid "Welcome to"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:21
+#: includes/ReduxCore/inc/welcome/views/templates.php:19
+msgid "Redux is the world's most powerful and widely used WordPress interface builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:39
+msgid "Did I install this?"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:43
+msgid "Maybe not! These items are using Redux. If you want to keep using them, Redux will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: includes/ReduxCore/inc/welcome/views/about.php:54
+msgid "Maybe not! If you want to see what Redux is all about, click here to %1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:81
+msgid "Version:"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:86
+#: includes/ReduxCore/inc/welcome/views/about.php:139
+msgid "By"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:93
+msgid "Theme"
+msgstr ""
+
+#: includes/ReduxCore/inc/welcome/views/about.php:145
+msgid "Plugin"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/footer.tpl.php:58
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/footer.tpl.php:62
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/footer.tpl.php:63
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/footer.tpl.php:67
+#: includes/ReduxCore/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:11
+#: includes/ReduxCore/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/ReduxCore/templates/panel/header.tpl.php:36
+msgid "If you are not a developer, your theme/plugin author shipped with developer mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:37
+#: includes/Shortcode/user-forgot-password.php:40
+#: includes/Shortcode/user-forgot-password.php:118
+#: includes/Shortcode/user-forgot-password.php:123
+msgid "New Password"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:45
+#: includes/Shortcode/user-forgot-password.php:48
+msgid "Confirm New Password"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:54
+#: includes/Shortcode/user-forgot-password.php:77
+msgid "Reset Password"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:68
+#: includes/Shortcode/user-forgot-password.php:71
+msgid "Username or Email"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:121
+msgid "Hello"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:122
+msgid "Your recently requested to reset your password. Here is the new password for Log In"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:124
+msgid "Thanks"
+msgstr ""
+
+#: includes/Shortcode/user-forgot-password.php:140
+msgid "User not found with this email address"
+msgstr ""
+
+#: includes/Shortcode/user-login.php:52
+msgid "Username or Email Address"
+msgstr ""
+
+#: includes/Shortcode/user-login.php:58
+msgid "Your Password"
+msgstr ""
+
+#: includes/Shortcode/user-login.php:70
+msgid "Remember Me"
+msgstr ""
+
+#: includes/Shortcode/user-login.php:75
+#: includes/Utils/woo_helper.php:201
+msgid "Forgot Password?"
+msgstr ""
+
+#: includes/Shortcode/user-login.php:78
+msgid "Sign In"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:55
+msgid "Email already exists."
+msgstr ""
+
+#: includes/Shortcode/user-register.php:58
+msgid "Username already exists."
+msgstr ""
+
+#: includes/Shortcode/user-register.php:60
+msgid "Your username is not properly formatted."
+msgstr ""
+
+#: includes/Shortcode/user-register.php:64
+msgid "Password fields should not be empty"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:66
+msgid "Password and confirm password did not match"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:98
+#: includes/Shortcode/user-register.php:134
+msgid "Somthing went wrong please try again."
+msgstr ""
+
+#: includes/Shortcode/user-register.php:129
+msgid "Verify your account from your email."
+msgstr ""
+
+#: includes/Shortcode/user-register.php:157
+#: includes/Shortcode/user-register.php:160
+msgid "First Name"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:166
+#: includes/Shortcode/user-register.php:169
+msgid "Last Name"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:184
+msgid "Email*"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:187
+msgid "Email"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:203
+#: includes/Shortcode/user-register.php:206
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:214
+#: includes/Utils/woo_helper.php:149
+#: includes/Utils/woo_helper.php:152
+msgid "Register"
+msgstr ""
+
+#: includes/Shortcode/user-register.php:220
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: includes/Shortcode/user-resend-verification-email.php:32
+msgid "Email Address"
+msgstr ""
+
+#: includes/Shortcode/user-resend-verification-email.php:35
+msgid "User Email Address"
+msgstr ""
+
+#: includes/Shortcode/user-resend-verification-email.php:41
+msgid "Resend Verification Email"
+msgstr ""
+
+#: includes/Shortcode/user-resend-verification-email.php:41
+msgid "Resend Email"
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:9
+msgid "Verifying..."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:71
+#: includes/Utils/ajax_helper.php:109
+msgid "Invalid username."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:72
+msgid "Invalid email."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:73
+msgid "Invalid password."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:75
+msgid "Please check your email."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:77
+msgid "This account has not yet been verified."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:89
+msgid "Login successful."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:106
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:119
+msgid "We have just sent you an email with instructions to reset your password."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:141
+msgid "This key has expired."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:143
+msgid "This key is invalid."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:148
+msgid "Your passwords do not match."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:151
+msgid "Your password has been reset."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:170
+msgid "Account is already activated."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:182
+msgid "Check Email To Verify Your Account."
+msgstr ""
+
+#: includes/Utils/ajax_helper.php:198
+msgid "User not registered yet."
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:11
+msgid "Ripples Animation"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:19
+msgid "Enable Ripples Animation"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:27
+msgid "Circle Color"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:62
+msgid "Top Left"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:63
+msgid "Top Right"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:64
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/Utils/animation_helpers.php:65
+msgid "Bottom Left"
+msgstr ""
+
+#. translators: %s: post date
+#: includes/Utils/helpers.php:28
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:55
+msgid "Added to cart!"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:56
+msgid "Checkout"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:57
+msgid "Continue shopping"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:138
+msgid "By creating an account, you agree to the <a href=\"%s\" target=\"_blank\" class=\"woocommerce-terms-and-conditions-link\">Terms and Conditions</a>"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:197
+msgid "Remember me"
+msgstr ""
+
+#: includes/Utils/woo_helper.php:208
+#: includes/Utils/woo_helper.php:211
+msgid "Log in"
+msgstr ""
+
+#: includes/Widget/course-categories.php:97
+msgid "Course Categories"
+msgstr ""
+
+#: includes/Widget/course-categories.php:105
+#: includes/Widget/course-tags.php:85
+#: includes/Widget/courses.php:160
+#: includes/Widget/footer-contact.php:115
+#: includes/Widget/footer-logo.php:58
+#: includes/Widget/group-author.php:93
+#: includes/Widget/iqonic-author.php:101
+#: includes/Widget/iqonic-navigation-menu.php:94
+#: includes/Widget/latest-activity-feed.php:89
+#: includes/Widget/recent-post.php:187
+#: includes/Widget/recently-active-members.php:120
+#: includes/Widget/social_media.php:100
+#: includes/Widget/user-profile.php:103
+msgid "Title:"
+msgstr ""
+
+#: includes/Widget/course-categories.php:111
+#: includes/Widget/course-tags.php:96
+msgid "Show post counts"
+msgstr ""
+
+#: includes/Widget/course-categories.php:115
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/Widget/course-tags.php:78
+msgid "Course Tags"
+msgstr ""
+
+#: includes/Widget/courses.php:92
+#: includes/Widget/recent-post.php:74
+msgid "post-img"
+msgstr ""
+
+#: includes/Widget/courses.php:145
+msgid "Recent Courses"
+msgstr ""
+
+#: includes/Widget/courses.php:165
+msgid "Number of courses to show:"
+msgstr ""
+
+#: includes/Widget/courses.php:171
+msgid "Display featured courses?"
+msgstr ""
+
+#: includes/Widget/courses.php:175
+#: includes/Widget/recent-post.php:197
+msgid "Select Title Tag:"
+msgstr ""
+
+#: includes/Widget/courses.php:188
+msgid "Show Price?"
+msgstr ""
+
+#: includes/Widget/courses.php:193
+msgid "Show instructor?"
+msgstr ""
+
+#: includes/Widget/courses.php:197
+msgid "Description Length:"
+msgstr ""
+
+#: includes/Widget/courses.php:203
+msgid "Show Image?"
+msgstr ""
+
+#: includes/Widget/footer-contact.php:120
+msgid "Display Phone Number?"
+msgstr ""
+
+#: includes/Widget/footer-contact.php:124
+msgid "Display Email?"
+msgstr ""
+
+#: includes/Widget/footer-contact.php:128
+msgid "Display Address?"
+msgstr ""
+
+#: includes/Widget/friend-suggestions.php:51
+msgid "Suggestion For You"
+msgstr ""
+
+#: includes/Widget/friend-suggestions.php:69
+#: includes/Widget/group-suggestions.php:64
+msgid "Suggestions Number:"
+msgstr ""
+
+#: includes/Widget/friend-suggestions.php:77
+#: includes/Widget/group-suggestions.php:72
+msgid "Show Buttons"
+msgstr ""
+
+#: includes/Widget/group-author.php:25
+msgid "Iqonic Group Author"
+msgstr ""
+
+#: includes/Widget/group-author.php:87
+msgid " Group Administrators"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:46
+msgid "Group Suggestions"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:180
+msgid "Public"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:182
+msgid "Hidden"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:184
+msgid "Private"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:186
+msgid "Group"
+msgstr ""
+
+#: includes/Widget/group-suggestions.php:207
+#: includes/Widget/group-suggestions.php:209
+msgid "Join"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:23
+msgid "Iqonic Author"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:44
+msgid "FB"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:45
+msgid "TW"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:46
+msgid "LN"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:47
+msgid "BE"
+msgstr ""
+
+#: includes/Widget/iqonic-author.php:62
+msgid "Author"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:25
+msgid "Iqonic Navigation Menu"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:79
+msgid " Menu"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:98
+msgid "Select Menu:"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:100
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:110
+msgid "Display Menu Text?"
+msgstr ""
+
+#: includes/Widget/iqonic-navigation-menu.php:114
+msgid "Additional CSS class:"
+msgstr ""
+
+#: includes/Widget/latest-activity-feed.php:62
+#: includes/Widget/latest-activity-feed.php:67
+msgid "No activity found!"
+msgstr ""
+
+#: includes/Widget/latest-activity-feed.php:79
+msgid "Latest Activities"
+msgstr ""
+
+#: includes/Widget/latest-activity-feed.php:96
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/Widget/recent-post.php:167
+msgid "Recent Post"
+msgstr ""
+
+#: includes/Widget/recent-post.php:192
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/Widget/recent-post.php:210
+msgid "Display post Date?"
+msgstr ""
+
+#: includes/Widget/recent-post.php:215
+msgid "Display post Category?"
+msgstr ""
+
+#: includes/Widget/recent-post.php:220
+msgid "Display post Excerpt?"
+msgstr ""
+
+#: includes/Widget/recent-post.php:225
+msgid "Display Button?"
+msgstr ""
+
+#: includes/Widget/recently-active-members.php:93
+msgid "There are no recently active members"
+msgstr ""
+
+#: includes/Widget/recently-active-members.php:110
+msgid "Active User"
+msgstr ""
+
+#: includes/Widget/recently-active-members.php:127
+msgid "Max members to show:"
+msgstr ""
+
+#: includes/Widget/social_media.php:46
+msgid "fb"
+msgstr ""
+
+#: includes/Widget/social_media.php:47
+msgid "tw"
+msgstr ""
+
+#: includes/Widget/social_media.php:48
+msgid "in"
+msgstr ""
+
+#: includes/Widget/social_media.php:49
+msgid "ln"
+msgstr ""
+
+#: includes/Widget/social_media.php:50
+msgid "pt"
+msgstr ""
+
+#: includes/Widget/social_media.php:51
+msgid "db"
+msgstr ""
+
+#: includes/Widget/social_media.php:52
+msgid "Flicker"
+msgstr ""
+
+#: includes/Widget/social_media.php:52
+msgid "fc"
+msgstr ""
+
+#: includes/Widget/social_media.php:53
+msgid "skype"
+msgstr ""
+
+#: includes/Widget/social_media.php:53
+msgid "sp"
+msgstr ""
+
+#: includes/Widget/social_media.php:54
+msgid "Youtube Play"
+msgstr ""
+
+#: includes/Widget/social_media.php:54
+msgid "yt"
+msgstr ""
+
+#: includes/Widget/social_media.php:55
+msgid "Rss"
+msgstr ""
+
+#: includes/Widget/social_media.php:55
+msgid "rs"
+msgstr ""
+
+#: includes/Widget/social_media.php:56
+msgid "Behance"
+msgstr ""
+
+#: includes/Widget/social_media.php:56
+msgid "bh"
+msgstr ""
+
+#: includes/Widget/social_media.php:92
+msgid " Stay connected"
+msgstr ""
+
+#: includes/Widget/social_media.php:105
+msgid "Display social text insted of icon?"
+msgstr ""
+
+#: includes/Widget/user-profile.php:25
+msgid "Iqonic User Profile"
+msgstr ""
+
+#: includes/Widget/user-profile.php:80
+msgid "image"
+msgstr ""
+
+#: includes/Widget/user-profile.php:82
+msgid "UserName"
+msgstr ""
+
+#: includes/Widget/user-profile.php:83
+msgid "username"
+msgstr ""
+
+#: includes/Widget/user-profile.php:109
+msgid "Show Without Login ?"
+msgstr ""

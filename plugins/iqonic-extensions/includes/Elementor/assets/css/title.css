@@ -1,0 +1,54 @@
+.socialv-title-box.socialv-title-box-1 {
+    position: relative;
+    z-index: 1;
+}
+
+.socialv-title-box.socialv-title-box-1 .socialv-heading-title {
+    margin-bottom: 1em;
+}
+
+.socialv-title-box .socialv-subtitle-wrap.socialv-subtitle-after .socialv-subtitle{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.socialv-title-box .socialv-subtitle {
+    color: var(--global-font-subtitle);
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-subtitle);
+}
+
+.socialv-title-box .socialv-title-desc {
+    margin-top: 2em;
+}
+.left.socialv-title-box .socialv-title-desc ,.right.socialv-title-box .socialv-title-desc{
+    margin-top: 1em;
+}
+
+.socialv-title-box {
+    margin-bottom: 4em;
+}
+
+.socialv-title-box.left ,.socialv-title-box.right{
+    margin-bottom: 2.5em;
+}  
+
+@media(max-width: 1024px) {
+    .socialv-title-box.text-center,
+    .socialv-title-box.center,
+    .socialv-title-box.left {
+        margin-bottom: 2em;
+    }
+    .socialv-title.socialv-heading-title br {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .mobile-text-center .socialv-title,
+    .mobile-text-center .socialv-title-desc {
+        text-align: center;
+    }
+}

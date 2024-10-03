@@ -1,0 +1,177 @@
+/* pricing shortcode (pmp) */
+
+.socialv-pmp-pricing-plans-wrapper {
+    background: var(--color-theme-white-box);
+    border-radius: var(--letter-spacing-eight);
+    padding: .188em;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-header {
+    padding: 3.125em 3.125em;
+    background: var(--color-theme-primary-light);
+    border-radius: var(--letter-spacing-eight);
+    position: relative;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-header .plan-name {
+    font-size: 21.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px; 
+    letter-spacing: 1.065px;
+    text-transform: capitalize;
+}
+
+.socialv-pmp-pricing-plans-wrapper span.plan-date-pack {
+    font-size: 1.125em;
+    font-weight: var(--font-weight-regular);
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-discount {
+    text-align: center;
+    padding: 0.375em;
+    background: var(--color-theme-primary);
+    color: var(--color-theme-white);
+    z-index: 0;
+    border-radius: var(--border-radius-eight) var(--border-radius-eight) 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-discount + .pricing-plan-header {
+    margin-top: 1em;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-header .plan-wrapper {
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.socialv-pmp-pricing-plans-wrapper span.main-price,
+.plan-meta-details span.sale-price {
+    font-size: 37.9px;
+    font-weight: var(--font-weight-regular);
+    line-height: 47px; 
+    color: var(--color-theme-primary);
+    font-weight: var(--font-weight-medium);
+}
+
+.plan-meta-details span.sale-price {
+    text-decoration: line-through;
+}
+
+.plan-meta-details .plan_expiration {
+    margin-top: 1em;
+}
+
+.wrap-details-pricing {
+    padding: 3.125em;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3.125em;
+    display: inline-block;
+    text-align: left;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-description ul li {
+    margin-bottom: 2.5em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    line-height: normal;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-description ul li:last-child {
+    margin-bottom: 0;
+}
+
+.socialv-pmp-pricing-plans-wrapper .plan-dec {
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-description ul li i {
+    font-size: .8em;
+    color: var(--color-theme-primary);
+}
+
+.socialv-pmp-pricing-plans-wrapper .wrap-details-pricing a.btn-hover.iq-button {
+    display: block;
+    padding: 1em 1.875em;
+    text-transform: capitalize;
+    font-weight: var(--font-weight-medium);
+}
+
+.pricing-plan-header .active-plan {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.8em;
+}
+
+.pricing-plan-header .active-plan span {
+    background: var(--color-theme-success);
+    color: var(--color-theme-white);
+    font-size: var(--font-size-small);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    line-height: 1em;
+    padding: .375em .75em;
+    border-radius: .125em;
+}
+
+.socialv-pmp-pricing-plans-wrapper .pricing-plan-header .plan-wrapper img {
+    width: 5em;
+}
+
+@media (max-width: 1199px) {
+    .socialv-pmp-pricing-plans-wrapper .pricing-plan-header {
+        padding: 1em
+    }
+    .wrap-details-pricing {
+        padding: 1em;
+    }
+    .socialv-pmp-pricing-plans-wrapper .pricing-plan-description ul li {
+        margin-bottom: 1.5em;
+    }
+    .socialv-pmp-pricing-plans-wrapper .plan-dec {
+        font-size: 1em;
+    }
+    .socialv-pmp-pricing-plans-wrapper .pricing-plan-discount + .pricing-plan-header {
+        margin-top: 2em;
+    }
+    .socialv-pmp-pricing-plans-wrapper span.main-price, .plan-meta-details span.sale-price {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width:480px) {
+    .socialv-pmp-pricing-plans-wrapper .wrap-details-pricing {
+        padding: 1.875em;
+    }
+
+    .socialv-pmp-pricing-plans-wrapper .pricing-plan-header {
+        padding: 2.5em 1.875em;
+    }
+
+    .socialv-pmp-pricing-plans-wrapper .plan-dec {
+        font-size: 1em;
+    }
+}
+
+/* rtl */

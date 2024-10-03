@@ -1,0 +1,122 @@
+.socialv-testimonial{
+    text-align: center;
+    overflow: hidden;
+}
+
+.socialv-testimonial .testimonial-message{
+    color: var(--global-font-title);
+    font-family: var(--highlight-font-family);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-medium);
+    padding: 0 75px;
+}
+
+.socialv-testimonial .testimonial-message .highlight{
+    background: var(--color-theme-yellow);
+}
+
+/*=========
+thumbs
+==============*/
+.socialv-testimonial  .user-thumbs .swiper-slide{
+    cursor: pointer;
+}
+
+.socialv-testimonial .user-thumbs .swiper-slide.swiper-slide-prev,
+.socialv-testimonial .user-thumbs .swiper-slide.swiper-slide-next{
+    opacity: .2;
+}
+
+.socialv-testimonial .user-thumbs .swiper-slide.swiper-slide-active{
+    opacity: 1;
+}
+
+.socialv-testimonial .user-thumbs{
+    margin-top: 4.375em;
+}
+
+.socialv-testimonial .author-details{
+    margin: 0 1em;
+}
+
+.socialv-testimonial .author-details .testimonial-slider-img img{
+    height: 5em;
+    width: 5em;
+    object-fit: cover;
+    -moz-border-radius: var(--border-radius-box);
+    -webkit-border-radius: var(--border-radius-box);
+    border-radius: var(--border-radius-box);
+}
+
+.socialv-testimonial .author-details .testimonial-slider-img{
+    margin-bottom: 1.875em;
+}
+
+.socialv-testimonial .socialv-testi-title{
+    margin-bottom: .25em;
+}
+
+.socialv-testimonial .socialv-testi-company{
+    text-transform: uppercase;
+    font-weight: var(--font-weight-medium);
+    color: var(--global-font-title);
+}
+
+/*=================
+pagination
+=====================*/
+
+.socialv-testimonial .swiper-pagination{
+    position: static;
+    line-height: 0;
+    margin-top: 2em;
+}
+
+.socialv-testimonial .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background: var(--color-theme-primary);
+}
+
+.swiper-scrollbar{
+    position: static;
+    margin-top: 2em;
+    opacity: 1;
+    z-index: 50;
+    height: .125em;
+    width: 100%;
+    background: var(--border-color-light);
+}
+
+.swiper .swiper-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+.swiper-scrollbar-drag{
+    background: var(--color-theme-primary);
+}
+
+/*================
+responsive
+=======================*/
+@media (max-width: 1200px){
+    .socialv-testimonial .swiper-pagination-bullet{
+        width: 12.5em;
+    }
+}
+
+@media (max-width: 1024px){
+    .socialv-testimonial .testimonial-message{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 767px){
+    .socialv-testimonial .user-thumbs{
+        margin-top: 2em;
+    }
+}

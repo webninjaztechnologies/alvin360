@@ -1,0 +1,140 @@
+/*---------------------------------------------------------------------
+					FAQ
+  -----------------------------------------------------------------------*/
+.socialv-accordion {
+  z-index: 9;
+  position: relative;
+}
+
+.socialv-accordion-block {
+  padding: 2.5em;
+  background-color: var(--color-theme-white-box);
+  margin-bottom: 2em;
+  -moz-border-radius: var(--border-radius-box);
+  -webkit-border-radius: var(--border-radius-box);
+  border-radius: var(--border-radius-box);
+  box-shadow: var(--global-box-shadow);
+}
+
+.socialv-accordion .socialv-accordion-title {
+  position: relative;
+  padding-bottom: 0;
+  line-height: normal;
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.socialv-accordion .socialv-accordion-title .accordion-title {
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--global-font-title);
+  transition: all .5s ease-in-out;
+}
+
+.socialv-accordion .socialv-accordion-details {
+  display: none;
+  text-align: left;
+}
+
+.socialv-accordion .socialv-accordion-details p {
+  margin: 0;
+}
+
+.socialv-accordion .socialv-accordion-block:last-child {
+  margin-bottom: 0 !important;
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title svg,
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title i{
+  transition: all .5s ease-in-out;
+}
+
+.socialv-accordion-block.socialv-active .socialv-icon-style .inactive,
+.socialv-accordion-block.socialv-active .socialv-icon-style .active{
+  transition: all .5s ease-in-out;
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title svg {
+  vertical-align: middle;
+  color: var(--color-theme-white);
+  font-size: var(--font-size-body);
+}
+
+.socialv-accordion .socialv-accordion-title-info {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title .socialv-icon-style {
+  display: inline-block;
+  width: 1.875em;
+  min-width: 1.875em;
+  height: 1.875em;
+  text-align: center;
+  line-height: 1.875em;
+  color: var(--color-theme-white);
+  background: var(--color-theme-primary);
+  -moz-border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  border-radius: var(--border-radius);
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title .socialv-icon-left {
+  left: 30px;
+  right: auto;
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title i::before {
+  vertical-align: middle;
+}
+
+.socialv-accordion .socialv-accordion-block .socialv-accordion-title .active svg {
+  display: none;
+}
+
+.socialv-accordion .socialv-accordion-block.socialv-active .socialv-accordion-title .active svg {
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--color-theme-white);
+}
+
+.socialv-accordion .socialv-accordion-block.socialv-active .socialv-accordion-title .inactive svg {
+  display: none;
+}
+
+.socialv-accordion-shadow .socialv-accordion-block.socialv-active {
+  -webkit-box-shadow: -1px 4px 30px 0 rgba(0, 0, 0, .06);
+  -moz-box-shadow: -1px 4px 30px 0 rgba(0, 0, 0, .06);
+  box-shadow: -1px 4px 30px 0 rgba(0, 0, 0, .06);
+  transition: all .5s ease-in-out;
+}
+
+.socialv-accordion .socialv-active .socialv-accordion-title .accordion-title {
+  color: var(--color-theme-primary);
+  padding-bottom: 1.1em;
+}
+
+.socialv-accordion-block .socialv-icon-style .active {
+  display: none;
+}
+
+.socialv-accordion-block.socialv-active .socialv-icon-style .inactive {
+  display: none;
+}
+
+.socialv-accordion-block.socialv-active .socialv-icon-style .active {
+  display: block;
+}
+
+.socialv-accordion-block .socialv-serial-number {
+  color: var(--color-theme-primary);
+}
+
+@media (max-width: 1024px) {
+  .socialv-accordion-block {
+    padding: 2em;
+  }
+}

@@ -1,0 +1,1870 @@
+# Copyright (C) 2023 wpuzman
+# This file is distributed under the license purchased.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Story Premium 3.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-story-premium\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-06T13:08:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0-alpha-eb4007b\n"
+"X-Domain: wp-story-premium\n"
+
+#. Plugin Name of the plugin
+#: admin/class-wpstory-premium-updater.php:394
+msgid "WP Story Premium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://codecanyon.net/item/wp-story-premium/27546341/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create your own Instagram style stories."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpuzman"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/wpuzman/"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:39
+msgctxt "Post Type General Name"
+msgid "Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:40
+msgctxt "Post Type Singular Name"
+msgid "Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:41
+msgctxt "Admin Menu text"
+msgid "Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:42
+msgctxt "Add New on Toolbar"
+msgid "Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:43
+msgid "Story Archives"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:44
+msgid "Story Attributes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:45
+msgid "Parent Story:"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:46
+msgid "All Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:47
+#: admin/class-wpstory-post-types.php:48
+msgid "Add New Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:49
+msgid "New Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:50
+msgid "Edit Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:51
+msgid "Update Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:52
+msgid "View Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:53
+msgid "View Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:54
+msgid "Search Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:55
+#: admin/class-wpstory-post-types.php:118
+#: admin/class-wpstory-post-types.php:181
+#: admin/class-wpstory-post-types.php:248
+#: admin/class-wpstory-post-types.php:314
+msgid "Not found"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:56
+#: admin/class-wpstory-post-types.php:119
+#: admin/class-wpstory-post-types.php:182
+#: admin/class-wpstory-post-types.php:249
+#: admin/class-wpstory-post-types.php:315
+msgid "Not found in trash"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:57
+#: admin/class-wpstory-post-types.php:120
+#: admin/class-wpstory-post-types.php:183
+#: admin/class-wpstory-post-types.php:250
+#: admin/class-wpstory-post-types.php:316
+msgid "Featured Image"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:58
+#: admin/class-wpstory-post-types.php:121
+#: admin/class-wpstory-post-types.php:184
+#: admin/class-wpstory-post-types.php:251
+#: admin/class-wpstory-post-types.php:317
+msgid "Set featured image"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:59
+#: admin/class-wpstory-post-types.php:122
+#: admin/class-wpstory-post-types.php:185
+#: admin/class-wpstory-post-types.php:252
+#: admin/class-wpstory-post-types.php:318
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:60
+#: admin/class-wpstory-post-types.php:123
+#: admin/class-wpstory-post-types.php:186
+#: admin/class-wpstory-post-types.php:253
+#: admin/class-wpstory-post-types.php:319
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:61
+msgid "Add to story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:62
+msgid "Uploaded to this story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:63
+msgid "Stories list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:64
+msgid "Stories list navigation"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:65
+msgid "Filter stories list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:69
+msgid "Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:102
+msgctxt "Post Type General Name"
+msgid "Story Boxes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:103
+msgctxt "Post Type Singular Name"
+msgid "Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:104
+msgctxt "Admin Menu text"
+msgid "Story Boxes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:105
+msgctxt "Add New on Toolbar"
+msgid "Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:106
+msgid "Story Box Archives"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:107
+msgid "Story Box Attributes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:108
+msgid "Parent Story Box:"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:109
+msgid "All Stories Boxes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:110
+msgid "Add New Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:111
+#: admin/class-wpstory-post-types.php:174
+#: admin/class-wpstory-post-types.php:241
+#: admin/class-wpstory-post-types.php:307
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:112
+msgid "New Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:113
+msgid "Edit Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:114
+msgid "Update Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:115
+msgid "View Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:116
+msgid "View Stories Boxes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:117
+msgid "Search Story Box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:124
+msgid "Add to story box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:125
+msgid "Uploaded to this story box"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:126
+msgid "Story boxes list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:127
+msgid "Story boxes list navigation"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:128
+msgid "Filter story boxes list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:132
+#: admin/class-wpstory-premium-admin.php:115
+#: admin/class-wpstory-premium-admin.php:116
+msgid "Story Boxes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:165
+msgctxt "Post Type General Name"
+msgid "User Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:166
+#: admin/class-wpstory-post-types.php:233
+msgctxt "Post Type Singular Name"
+msgid "User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:167
+#: admin/class-wpstory-post-types.php:234
+msgctxt "Admin Menu text"
+msgid "User Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:168
+#: admin/class-wpstory-post-types.php:235
+msgctxt "Add New on Toolbar"
+msgid "User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:169
+#: admin/class-wpstory-post-types.php:236
+msgid "User Story Archives"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:170
+#: admin/class-wpstory-post-types.php:237
+msgid "User Story Attributes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:171
+#: admin/class-wpstory-post-types.php:238
+msgid "Parent User Story:"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:172
+#: admin/class-wpstory-post-types.php:239
+msgid "All User Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:173
+msgid "Add New User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:175
+#: admin/class-wpstory-post-types.php:242
+msgid "New User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:176
+#: admin/class-wpstory-post-types.php:243
+msgid "Edit User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:177
+#: admin/class-wpstory-post-types.php:244
+msgid "Update User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:178
+#: admin/class-wpstory-post-types.php:245
+msgid "View User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:179
+#: admin/class-wpstory-post-types.php:246
+msgid "View User Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:180
+#: admin/class-wpstory-post-types.php:247
+msgid "Search User Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:187
+#: admin/class-wpstory-post-types.php:254
+#: admin/class-wpstory-post-types.php:320
+msgid "Add to user story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:188
+#: admin/class-wpstory-post-types.php:255
+msgid "Uploaded to this user story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:189
+#: admin/class-wpstory-post-types.php:256
+#: admin/class-wpstory-post-types.php:322
+msgid "User story list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:190
+#: admin/class-wpstory-post-types.php:257
+#: admin/class-wpstory-post-types.php:323
+msgid "User tories list navigation"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:191
+#: admin/class-wpstory-post-types.php:258
+#: admin/class-wpstory-post-types.php:324
+msgid "Filter story stories list"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:195
+#: admin/class-wpstory-premium-admin.php:123
+#: admin/class-wpstory-premium-admin.php:124
+msgid "User Stories"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:232
+msgctxt "Post Type General Name"
+msgid "User Stories (Public)"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:240
+msgid "Add New User Public Story"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:262
+#: admin/class-wpstory-premium-admin.php:131
+#: admin/class-wpstory-premium-admin.php:132
+msgid "User Stories (Public)"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:298
+msgctxt "Post Type General Name"
+msgid "User Reports"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:299
+msgctxt "Post Type Singular Name"
+msgid "User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:300
+msgctxt "Admin Menu text"
+msgid "User Reports"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:301
+msgctxt "Add New on Toolbar"
+msgid "User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:302
+msgid "User Report Archives"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:303
+msgid "User Report Attributes"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:304
+msgid "Parent User Report:"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:305
+msgid "All User Reports"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:306
+msgid "Add New User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:308
+msgid "New User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:309
+msgid "Edit User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:310
+msgid "Update User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:311
+msgid "View User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:312
+msgid "View User Reports"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:313
+msgid "Search User Report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:321
+msgid "Uploaded to this user report"
+msgstr ""
+
+#: admin/class-wpstory-post-types.php:328
+msgid "User Reports"
+msgstr ""
+
+#: admin/class-wpstory-premium-admin.php:140
+#: admin/class-wpstory-premium-admin.php:141
+msgid "Reports"
+msgstr ""
+
+#: admin/class-wpstory-premium-admin.php:157
+#: admin/metabox.php:597
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-wpstory-premium-admin.php:183
+msgid "This feature is disabled in demo mode."
+msgstr ""
+
+#: admin/class-wpstory-premium-admin.php:197
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:17
+#: admin/class-wpstory-premium-updater.php:21
+#: admin/class-wpstory-premium-updater.php:35
+msgid "License"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:41
+msgid "Purchase Code"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:42
+msgid "Enter your license code to enable auto updates and support."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:43
+msgid "(e.g. 9g2b13fa-10aa-2267-883a-9201a94cf9b5)"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:242
+msgid "Could not retrieve version details. Please try again."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:297
+msgid "Please enter a purchase code."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:301
+msgid "Please enter a valid purchase code."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:327
+msgid "We are sorry but we couldn't connect to the verification server. Please try again later."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:339
+msgid "Your purchase's support period has ended. Please extend it to receive automatic updates."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:341
+msgid "Could not find a sale with this purchase code. Please double check."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:377
+msgid "Buy Now"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:395
+msgid "Get new features and support."
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:396
+msgid "Please activate \"Wp Story Premium\" for getting updates and support!"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:398
+msgid "Activate"
+msgstr ""
+
+#: admin/class-wpstory-premium-updater.php:399
+msgid "Dismiss"
+msgstr ""
+
+#: admin/metabox.php:21
+#: admin/metabox.php:100
+msgid "Stories"
+msgstr ""
+
+#: admin/metabox.php:35
+msgid "+ Add Story Item"
+msgstr ""
+
+#: admin/metabox.php:40
+#: admin/metabox.php:140
+#: admin/metabox.php:641
+msgid "Button Title"
+msgstr ""
+
+#: admin/metabox.php:45
+#: admin/metabox.php:646
+msgid "Button Link"
+msgstr ""
+
+#: admin/metabox.php:50
+#: admin/metabox.php:651
+msgid "Open In New Tab"
+msgstr ""
+
+#: admin/metabox.php:51
+#: admin/metabox.php:652
+msgid "Open story in a new browser tab, when click story button."
+msgstr ""
+
+#: admin/metabox.php:52
+#: admin/metabox.php:75
+#: admin/metabox.php:321
+#: admin/metabox.php:653
+#: admin/options.php:120
+#: admin/options.php:128
+#: admin/options.php:138
+#: admin/options.php:260
+#: admin/options.php:269
+#: admin/options.php:292
+#: admin/options.php:660
+msgid "YES"
+msgstr ""
+
+#: admin/metabox.php:53
+#: admin/metabox.php:76
+#: admin/metabox.php:322
+#: admin/metabox.php:654
+#: admin/options.php:121
+#: admin/options.php:129
+#: admin/options.php:139
+#: admin/options.php:261
+#: admin/options.php:270
+#: admin/options.php:293
+#: admin/options.php:661
+msgid "NO"
+msgstr ""
+
+#: admin/metabox.php:59
+#: admin/metabox.php:660
+msgid "Media"
+msgstr ""
+
+#: admin/metabox.php:60
+#: admin/metabox.php:661
+msgid "Add Story Media"
+msgstr ""
+
+#: admin/metabox.php:61
+#: admin/metabox.php:662
+msgid "Remove Story Image"
+msgstr ""
+
+#: admin/metabox.php:67
+#: admin/metabox.php:147
+#: admin/metabox.php:667
+#: includes/class-wpstory-premium-submit.php:154
+msgid "Duration"
+msgstr ""
+
+#: admin/metabox.php:68
+#: admin/metabox.php:148
+#: admin/metabox.php:668
+msgid "Second"
+msgstr ""
+
+#: admin/metabox.php:74
+msgid "Disable Item"
+msgstr ""
+
+#: admin/metabox.php:90
+#: integrations/elementor/widgets/class-wpstory-elementor-widget.php:84
+#: integrations/wp-bakery/class-wp-bakery-widget.php:35
+#: integrations/gutenberg/src/edit.js:42
+#: integrations/gutenberg/dist/shortcode.js:2196
+msgid "Story Box"
+msgstr ""
+
+#: admin/metabox.php:108
+msgid "From Stories"
+msgstr ""
+
+#: admin/metabox.php:109
+msgid "From Posts"
+msgstr ""
+
+#: admin/metabox.php:110
+msgid "From Categories"
+msgstr ""
+
+#: admin/metabox.php:111
+msgid "From Ids"
+msgstr ""
+
+#: admin/metabox.php:112
+msgid "Linked Stories"
+msgstr ""
+
+#: admin/metabox.php:119
+#: admin/metabox.php:204
+msgid "Drag & drop for changing order."
+msgstr ""
+
+#: admin/metabox.php:120
+msgid "Search story item..."
+msgstr ""
+
+#: admin/metabox.php:131
+#: admin/metabox.php:215
+msgid "Please enter %s or more characters..."
+msgstr ""
+
+#: admin/metabox.php:132
+#: admin/metabox.php:216
+msgid "Searching..."
+msgstr ""
+
+#: admin/metabox.php:133
+#: admin/metabox.php:217
+msgid "No results found:"
+msgstr ""
+
+#: admin/metabox.php:141
+msgctxt "Default button title."
+msgid "Read Article"
+msgstr ""
+
+#: admin/metabox.php:155
+msgid "Max Post Count"
+msgstr ""
+
+#: admin/metabox.php:156
+msgid "Post"
+msgstr ""
+
+#: admin/metabox.php:163
+msgid "Fetch Type"
+msgstr ""
+
+#: admin/metabox.php:165
+msgid "Auto (From Latest Posts)"
+msgstr ""
+
+#: admin/metabox.php:166
+#: admin/options.php:631
+msgid "Manual"
+msgstr ""
+
+#: admin/metabox.php:173
+msgid "Posts Count"
+msgstr ""
+
+#: admin/metabox.php:181
+#: admin/metabox.php:192
+msgid "Categories"
+msgstr ""
+
+#: admin/metabox.php:193
+msgid "Leave blank to show all non-blank categories in name order."
+msgstr ""
+
+#: admin/metabox.php:205
+msgid "Search post..."
+msgstr ""
+
+#: admin/metabox.php:224
+msgid "ID Numbers"
+msgstr ""
+
+#: admin/metabox.php:225
+msgid "For any custom post type."
+msgstr ""
+
+#: admin/metabox.php:226
+msgid "Comma separated post IDs. (I.e: 100,101,102"
+msgstr ""
+
+#: admin/metabox.php:237
+msgid "Title"
+msgstr ""
+
+#: admin/metabox.php:242
+msgid "URL"
+msgstr ""
+
+#: admin/metabox.php:247
+msgid "Open in New Tab"
+msgstr ""
+
+#: admin/metabox.php:252
+msgid "Image"
+msgstr ""
+
+#: admin/metabox.php:263
+msgid "General Options"
+msgstr ""
+
+#: admin/metabox.php:269
+#: admin/options.php:67
+msgid "Render Type"
+msgstr ""
+
+#: admin/metabox.php:271
+#: admin/metabox.php:281
+#: admin/metabox.php:292
+#: admin/metabox.php:312
+#: admin/metabox.php:350
+#: admin/metabox.php:390
+#: admin/metabox.php:410
+#: admin/metabox.php:420
+#: admin/metabox.php:507
+#: admin/metabox.php:517
+#: admin/metabox.php:567
+#: admin/metabox.php:583
+msgid "Global"
+msgstr ""
+
+#: admin/metabox.php:272
+#: admin/options.php:69
+msgid "Client Side"
+msgstr ""
+
+#: admin/metabox.php:273
+#: admin/options.php:70
+msgid "Server Side"
+msgstr ""
+
+#: admin/metabox.php:279
+#: admin/options.php:77
+msgid "Style"
+msgstr ""
+
+#: admin/metabox.php:282
+#: admin/options.php:79
+msgid "Instagram Style"
+msgstr ""
+
+#: admin/metabox.php:283
+#: admin/options.php:80
+msgid "Facebook Style"
+msgstr ""
+
+#: admin/metabox.php:289
+#: admin/options.php:92
+msgid "Full Screen"
+msgstr ""
+
+#: admin/metabox.php:290
+msgid "It will be full screen in mobile devices."
+msgstr ""
+
+#: admin/metabox.php:293
+#: admin/metabox.php:391
+#: admin/metabox.php:411
+#: admin/metabox.php:584
+msgid "Enabled"
+msgstr ""
+
+#: admin/metabox.php:294
+#: admin/metabox.php:392
+#: admin/metabox.php:412
+#: admin/metabox.php:585
+msgid "Disabled"
+msgstr ""
+
+#: admin/metabox.php:304
+#: admin/options.php:112
+msgid "Displaying Options"
+msgstr ""
+
+#: admin/metabox.php:310
+msgid "Enable Custom Timer"
+msgstr ""
+
+#: admin/metabox.php:313
+#: admin/metabox.php:351
+#: admin/metabox.php:421
+#: admin/metabox.php:518
+#: admin/metabox.php:568
+#: includes/class-wpstory-premium-helpers.php:64
+msgid "Custom"
+msgstr ""
+
+#: admin/metabox.php:319
+#: admin/options.php:118
+msgid "Enable Story Timer"
+msgstr ""
+
+#: admin/metabox.php:320
+#: admin/options.php:119
+msgid "Stories will not be deleted. It will be only hidden."
+msgstr ""
+
+#: admin/metabox.php:329
+#: admin/options.php:147
+msgid "Display Stories For X Days"
+msgstr ""
+
+#: admin/metabox.php:332
+#: admin/options.php:150
+msgid "Day(s)"
+msgstr ""
+
+#: admin/metabox.php:342
+#: admin/options.php:334
+msgid "Story Background"
+msgstr ""
+
+#: admin/metabox.php:348
+#: admin/metabox.php:418
+msgid "Enable Custom Style"
+msgstr ""
+
+#: admin/metabox.php:357
+#: admin/metabox.php:427
+#: admin/metabox.php:524
+#: admin/options.php:341
+#: admin/options.php:394
+#: admin/options.php:478
+msgid "Background Color Type"
+msgstr ""
+
+#: admin/metabox.php:359
+#: admin/metabox.php:429
+#: admin/metabox.php:526
+#: admin/options.php:343
+#: admin/options.php:396
+#: admin/options.php:480
+msgid "Normal"
+msgstr ""
+
+#: admin/metabox.php:360
+#: admin/metabox.php:430
+#: admin/metabox.php:527
+#: admin/options.php:344
+#: admin/options.php:397
+#: admin/options.php:481
+msgid "Gradient"
+msgstr ""
+
+#: admin/metabox.php:367
+#: admin/metabox.php:374
+#: admin/metabox.php:437
+#: admin/metabox.php:444
+#: admin/metabox.php:534
+#: admin/metabox.php:541
+#: admin/options.php:350
+#: admin/options.php:357
+#: admin/options.php:403
+#: admin/options.php:410
+#: admin/options.php:488
+#: admin/options.php:495
+msgid "Background Color"
+msgstr ""
+
+#: admin/metabox.php:376
+#: admin/metabox.php:446
+#: admin/metabox.php:543
+#: admin/options.php:359
+#: admin/options.php:412
+#: admin/options.php:497
+#: includes/class-wpstory-premium-helpers.php:92
+msgid "Left"
+msgstr ""
+
+#: admin/metabox.php:377
+#: admin/metabox.php:447
+#: admin/metabox.php:544
+#: admin/options.php:360
+#: admin/options.php:413
+#: admin/options.php:498
+msgid "Right"
+msgstr ""
+
+#: admin/metabox.php:388
+#: admin/options.php:371
+msgid "Full Size Media"
+msgstr ""
+
+#: admin/metabox.php:402
+#: admin/options.php:380
+msgid "Button Style"
+msgstr ""
+
+#: admin/metabox.php:408
+msgid "Swipe Up Button"
+msgstr ""
+
+#: admin/metabox.php:458
+#: admin/options.php:424
+msgid "Text Color"
+msgstr ""
+
+#: admin/metabox.php:465
+#: admin/options.php:430
+msgid "Font Size"
+msgstr ""
+
+#: admin/metabox.php:474
+#: admin/options.php:438
+msgid "Padding"
+msgstr ""
+
+#: admin/metabox.php:486
+#: admin/options.php:449
+msgid "Border Radius"
+msgstr ""
+
+#: admin/metabox.php:499
+#: admin/options.php:461
+msgid "Cycle Style"
+msgstr ""
+
+#: admin/metabox.php:505
+#: admin/options.php:468
+msgid "Position"
+msgstr ""
+
+#: admin/metabox.php:508
+#: admin/options.php:470
+#: admin/options.php:630
+msgid "Auto"
+msgstr ""
+
+#: admin/metabox.php:509
+#: admin/options.php:471
+#: includes/class-wpstory-premium-helpers.php:93
+msgid "Center"
+msgstr ""
+
+#: admin/metabox.php:515
+msgid "Enable Custom Color"
+msgstr ""
+
+#: admin/metabox.php:559
+#: admin/options.php:513
+msgid "Title Style"
+msgstr ""
+
+#: admin/metabox.php:565
+#: admin/metabox.php:574
+#: admin/options.php:520
+msgid "Title Color"
+msgstr ""
+
+#: admin/metabox.php:581
+#: admin/options.php:526
+msgid "Uncropped Titles"
+msgstr ""
+
+#: admin/metabox.php:627
+msgid "Story Fields"
+msgstr ""
+
+#: admin/metabox.php:681
+#: admin/options.php:21
+msgid "WP Story Options"
+msgstr ""
+
+#: admin/metabox.php:696
+msgid "Story Cycle"
+msgstr ""
+
+#: admin/metabox.php:697
+#: admin/metabox.php:703
+msgid "Leave blank to use post thumbnail."
+msgstr ""
+
+#: admin/metabox.php:702
+#: admin/metabox.php:727
+msgid "Story Image"
+msgstr ""
+
+#: admin/metabox.php:728
+msgid "Leave blank to use last post thumbnail."
+msgstr ""
+
+#: admin/options.php:17
+msgid "Options"
+msgstr ""
+
+#: admin/options.php:35
+msgid "Welcome"
+msgstr ""
+
+#: admin/options.php:40
+msgid "Welcome to WP Story!"
+msgstr ""
+
+#: admin/options.php:44
+msgid "You can customize your plugin settings in this panel."
+msgstr ""
+
+#: admin/options.php:48
+msgid "Read documentation here:"
+msgstr ""
+
+#: admin/options.php:52
+msgid "Still no luck? Create a support ticket here:"
+msgstr ""
+
+#: admin/options.php:61
+msgid "General"
+msgstr ""
+
+#: admin/options.php:87
+msgid "Story Reporting System"
+msgstr ""
+
+#: admin/options.php:93
+msgid "It will be available for only touch devices and some browsers."
+msgstr ""
+
+#: admin/options.php:98
+msgid "Start Videos Silent"
+msgstr ""
+
+#: admin/options.php:103
+msgid "Browser Routing"
+msgstr ""
+
+#: admin/options.php:127
+msgid "Enable Story Timer For Single Stories"
+msgstr ""
+
+#: admin/options.php:137
+msgid "Enable Story Timer For Public Stories"
+msgstr ""
+
+#: admin/options.php:160
+#: admin/options.php:170
+msgid "User Publishing Options"
+msgstr ""
+
+#: admin/options.php:176
+msgid "This options for only user publishing form!"
+msgstr ""
+
+#: admin/options.php:181
+msgid "Default Story Duration"
+msgstr ""
+
+#: admin/options.php:187
+msgid "Allowed Image Types"
+msgstr ""
+
+#: admin/options.php:188
+#: admin/options.php:197
+msgid "Leave empty to allow all types."
+msgstr ""
+
+#: admin/options.php:196
+msgid "Allowed Video Types"
+msgstr ""
+
+#: admin/options.php:205
+msgid "Story Published Status"
+msgstr ""
+
+#: admin/options.php:211
+msgid "Story Deleting Status"
+msgstr ""
+
+#: admin/options.php:213
+msgid "Make story draft"
+msgstr ""
+
+#: admin/options.php:214
+msgid "Move story to trash"
+msgstr ""
+
+#: admin/options.php:215
+msgid "Delete story permanently"
+msgstr ""
+
+#: admin/options.php:222
+msgid "User Single Story Limit"
+msgstr ""
+
+#: admin/options.php:223
+#: admin/options.php:232
+#: admin/options.php:250
+msgid "Set 0 to unlimited."
+msgstr ""
+
+#: admin/options.php:231
+msgid "User Public Story Limit"
+msgstr ""
+
+#: admin/options.php:240
+msgid "Story Item Limit"
+msgstr ""
+
+#: admin/options.php:241
+msgid "Limit for per public story. Set 0 to unlimited."
+msgstr ""
+
+#: admin/options.php:249
+msgid "Max Uploading File Size"
+msgstr ""
+
+#: admin/options.php:258
+msgid "Allow Story Link"
+msgstr ""
+
+#: admin/options.php:259
+msgid "Users can add link button when creating a story."
+msgstr ""
+
+#: admin/options.php:268
+msgid "Story Insights"
+msgstr ""
+
+#: admin/options.php:280
+msgid "Image Compression"
+msgstr ""
+
+#: admin/options.php:286
+msgid "Image compression works only in the user publishing form!"
+msgstr ""
+
+#: admin/options.php:291
+msgid "Enable Image Compression Before Upload"
+msgstr ""
+
+#: admin/options.php:299
+msgid "Compression Quality"
+msgstr ""
+
+#: admin/options.php:308
+msgid "Image Max Width"
+msgstr ""
+
+#: admin/options.php:314
+msgid "Image Max Height"
+msgstr ""
+
+#: admin/options.php:324
+msgid "Styling Options"
+msgstr ""
+
+#: admin/options.php:387
+msgid "Enable Swipe Up Button"
+msgstr ""
+
+#: admin/options.php:388
+msgid "It will be available for only touch devices."
+msgstr ""
+
+#: admin/options.php:535
+msgid "Integrations"
+msgstr ""
+
+#: admin/options.php:544
+msgid "BuddyPress"
+msgstr ""
+
+#: admin/options.php:551
+msgid "\"Single Stories\" is requiring to enable BuddyPress \"Friend Connections\" feature in BuddyPress settings."
+msgstr ""
+
+#: admin/options.php:556
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: admin/options.php:561
+#: admin/options.php:637
+msgid "Single Stories"
+msgstr ""
+
+#: admin/options.php:562
+#: admin/options.php:638
+msgid "Create stories for only subscribers. (Like Instagram)"
+msgstr ""
+
+#: admin/options.php:567
+#: admin/options.php:643
+msgid "Public Stories"
+msgstr ""
+
+#: admin/options.php:568
+#: admin/options.php:644
+msgid "Create stories for public profile."
+msgstr ""
+
+#: admin/options.php:573
+msgid "Users' Activities"
+msgstr ""
+
+#: admin/options.php:574
+msgid "Display users' latest stories on activity wall."
+msgstr ""
+
+#: admin/options.php:579
+msgid "Users' Activities Publishing Form"
+msgstr ""
+
+#: admin/options.php:580
+msgid "Display story publishing form on users' activity wall."
+msgstr ""
+
+#: admin/options.php:585
+msgid "Users' Activities Form Login URL"
+msgstr ""
+
+#: admin/options.php:586
+msgid "If users not logged in, when click the \"Add Story\" button, redirect your own login page. Default is wp-login.php."
+msgstr ""
+
+#: admin/options.php:595
+msgid "bbPress"
+msgstr ""
+
+#: admin/options.php:602
+msgid "bbPress Integration"
+msgstr ""
+
+#: admin/options.php:611
+msgid "PeepSo"
+msgstr ""
+
+#: admin/options.php:618
+msgid "\"Single Stories\" is requiring \"PeepSo Core: Friends\" plugin."
+msgstr ""
+
+#: admin/options.php:623
+msgid "PeepSo Integration"
+msgstr ""
+
+#: admin/options.php:628
+msgid "Placement"
+msgstr ""
+
+#: admin/options.php:653
+msgid "Advanced"
+msgstr ""
+
+#: admin/options.php:659
+msgid "Delete Plugin Options When Plugin Uninstall"
+msgstr ""
+
+#: admin/options.php:667
+msgid "Story Options For Posts"
+msgstr ""
+
+#: admin/options.php:668
+msgid "Display story options for posts to set custom story images."
+msgstr ""
+
+#: admin/options.php:674
+msgid "Opener Selector"
+msgstr ""
+
+#: admin/options.php:675
+msgid "Css selector for opening stories on click."
+msgstr ""
+
+#: admin/options.php:688
+msgid "Changelog"
+msgstr ""
+
+#: includes/class-wpstory-premium-creator.php:186
+#: includes/class-wpstory-premium-creator.php:300
+#: includes/class-wpstory-premium-creator.php:322
+#: includes/class-wpstory-premium-creator.php:425
+#: includes/class-wpstory-premium-creator.php:535
+#: includes/class-wpstory-premium-creator.php:631
+#: includes/class-wpstory-premium-creator.php:711
+#: includes/class-wpstory-premium-creator.php:799
+#: includes/class-wpstory-premium-creator.php:814
+msgid "No stories found!"
+msgstr ""
+
+#: includes/class-wpstory-premium-dynamic-contents.php:32
+msgid "Add highlight story"
+msgstr ""
+
+#: includes/class-wpstory-premium-dynamic-contents.php:36
+msgid "Add story"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:38
+#: includes/class-wpstory-premium-helpers.php:66
+msgid "Apply"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:39
+msgid "Yes"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:40
+#: includes/class-wpstory-premium-more-buttons.php:212
+#: includes/class-wpstory-premium-more-buttons.php:304
+msgid "Close"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:50
+msgid "Undo"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:51
+msgid "Redo"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:52
+msgid "Reset"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:53
+#: includes/class-wpstory-premium-more-buttons.php:93
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:54
+msgid "Delete All"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:55
+msgid "Crop"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:56
+msgid "Flip"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:57
+msgid "Rotate"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:58
+msgid "Draw"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:59
+msgid "Shape"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:60
+msgid "Icon"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:61
+msgid "Text"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:62
+#: includes/class-wpstory-premium-helpers.php:96
+msgid "Mask"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:63
+msgid "Filter"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:65
+msgid "Square"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:67
+#: includes/class-wpstory-premium-more-buttons.php:110
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:68
+msgid "Flip X"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:69
+msgid "Flip Y"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:70
+msgid "Range"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:71
+msgid "Free"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:72
+msgid "Straight"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:73
+msgid "Rectangle"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:74
+msgid "Circle"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:75
+msgid "Triangle"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:76
+msgid "Fill"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:77
+msgid "Stroke"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:78
+msgid "Arrow"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:79
+msgid "Arrow-2"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:80
+msgid "Arrow-3"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:81
+msgid "Star-1"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:82
+msgid "Star-2"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:83
+msgid "Polygon"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:84
+msgid "Location"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:85
+msgid "Heart"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:86
+msgid "Bubble"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:87
+msgid "Custom icon"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:88
+msgid "Color"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:89
+msgid "Bold"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:90
+msgid "Italic"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:91
+#: includes/class-wpstory-premium-helpers.php:94
+msgid "Underline"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:95
+msgid "Text size"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:97
+msgid "Load Mask Image"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:98
+msgid "Grayscale"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:99
+msgid "Invert"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:100
+msgid "Sepia"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:101
+msgid "Sepia2"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:102
+msgid "Blur"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:103
+msgid "Sharpen"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:104
+msgid "Emboss"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:105
+msgid "Remove White"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:106
+msgid "Distance"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:107
+msgid "Brightness"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:108
+msgid "Noise"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:109
+msgid "Pixelate"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:110
+msgid "Color Filter"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:111
+msgid "Threshold"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:112
+msgid "Tint"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:113
+msgid "Multiply"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:114
+msgid "Blend"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:117
+msgid "Are you sure want to delete this story item?"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:125
+msgid "Please add an image or video for all story items!"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:128
+msgid "File is too large!"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:129
+msgid "Allowed max file size is: {filesize}."
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:130
+msgid "Are you sure want to delete?"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:259
+#: integrations/elementor/widgets/class-wpstory-elementor-widget.php:148
+#: integrations/elementor/widgets/class-wpstory-elementor-widget.php:205
+#: integrations/widgets/class-wpstory-story-box-widget.php:79
+#: integrations/gutenberg/src/edit.js:22
+#: integrations/gutenberg/dist/shortcode.js:2176
+msgid "Select a Story Box"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:742
+msgctxt "thousand"
+msgid "k"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:743
+msgctxt "million"
+msgid "m"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:744
+msgctxt "billion"
+msgid "b"
+msgstr ""
+
+#: includes/class-wpstory-premium-helpers.php:745
+msgctxt "trillion"
+msgid "t"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:99
+msgid "View Insights"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:105
+msgid "Report as inappropriate"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:148
+msgid "Report"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:158
+msgid "Why are you reporting this post?"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:160
+msgid "Send Report"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:209
+msgid "Thanks for letting us know"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:210
+msgid "Your feedback is important in helping us keep the our website safe."
+msgstr ""
+
+#. translators: %s: user's username.
+#: includes/class-wpstory-premium-more-buttons.php:219
+#: includes/class-wpstory-premium-more-buttons.php:222
+msgid "%s's Report!"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:301
+msgid "It's done!"
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:302
+msgid "Your story has been deleted successfully."
+msgstr ""
+
+#: includes/class-wpstory-premium-more-buttons.php:420
+#: includes/class-wpstory-premium-more-buttons.php:495
+msgid "No result for now."
+msgstr ""
+
+#. translators: %s: viewers count
+#: includes/class-wpstory-premium-more-buttons.php:460
+msgid "Viewers (%s)"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:56
+msgid "Story Category"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:62
+msgid "create new"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:82
+msgid "select category"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:87
+msgid "Story Category Image"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:95
+msgid "Story Category Title"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:123
+msgid "Story Link Text"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:126
+msgid "Ie: \"See Article\""
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:130
+msgid "Story Link"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:137
+msgid "Story Media"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:138
+msgid "Upload File"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:163
+msgid "Publish"
+msgstr ""
+
+#. translators: %1$s: story limit %2$s: story count
+#: includes/class-wpstory-premium-submit.php:189
+#: includes/class-wpstory-premium-submit.php:333
+msgid "You can publish only %1$s story! Currently story count is %2$s."
+msgid_plural "You can publish only %1$s stories! Currently story count is %2$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: story item limit
+#: includes/class-wpstory-premium-submit.php:212
+msgid "You can create only %s item per story!"
+msgid_plural "You can create only %s items per story!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wpstory-premium-submit.php:255
+#: includes/class-wpstory-premium-submit.php:296
+#: includes/class-wpstory-premium-submit.php:385
+msgid "Story can not be published. Try again later."
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:307
+#: includes/class-wpstory-premium-submit.php:396
+msgid "Story published!"
+msgstr ""
+
+#: includes/class-wpstory-premium-submit.php:310
+#: includes/class-wpstory-premium-submit.php:399
+msgid "Your story sent for review!"
+msgstr ""
+
+#: integrations/elementor/widgets/class-wpstory-elementor-widget.php:44
+#: integrations/gutenberg/class-wpstory-gutenberg-block.php:64
+#: integrations/wp-bakery/class-wp-bakery-widget.php:24
+#: integrations/gutenberg/src/edit.js:40
+#: integrations/gutenberg/dist/shortcode.js:2194
+msgid "WP Story"
+msgstr ""
+
+#: integrations/elementor/widgets/class-wpstory-elementor-widget.php:92
+msgid "Select Story Box"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-activity-feed-widget.php:21
+msgid "WP Story - Activity Feed"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-activity-feed-widget.php:22
+msgid "Display all users' single stories and story submitting form."
+msgstr ""
+
+#: integrations/widgets/class-wpstory-activity-feed-widget.php:68
+#: integrations/widgets/class-wpstory-story-box-widget.php:72
+msgid "Title:"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-activity-feed-widget.php:72
+msgid "Login URL:"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-activity-feed-widget.php:76
+msgid "Publishing Form:"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-story-box-widget.php:21
+msgid "WP Story - Story Box"
+msgstr ""
+
+#: integrations/widgets/class-wpstory-story-box-widget.php:22
+msgid "Display stories."
+msgstr ""
+
+#: integrations/widgets/class-wpstory-story-box-widget.php:77
+msgid "Story Box:"
+msgstr ""
+
+#: public/class-wpstory-premium-public.php:568
+msgid "Invalid data! "
+msgstr ""
+
+#: public/class-wpstory-premium-public.php:662
+msgid "[wp-story] shortcode is deprecated. Use [wpstory] instead."
+msgstr ""
+
+#: public/class-wpstory-premium-public.php:689
+msgid "[wp-story-user-stories] shortcode is deprecated. Use [wpstory-user-public-stories] instead."
+msgstr ""
+
+#: public/class-wpstory-premium-public.php:717
+msgid "[wp-story-user-single-stories] shortcode is deprecated. Use [wpstory-user-single-stories] instead."
+msgstr ""
+
+#: public/class-wpstory-premium-public.php:743
+msgid "[wp-story-activities] shortcode is deprecated. Use [wpstory-activities] instead."
+msgstr ""
+
+#: integrations/gutenberg/src/edit.js:33
+#: integrations/gutenberg/src/edit.js:64
+#: integrations/gutenberg/dist/shortcode.js:2187
+#: integrations/gutenberg/dist/shortcode.js:2218
+msgid "Loading..."
+msgstr ""
+
+#: integrations/gutenberg/src/edit.js:52
+#: integrations/gutenberg/src/index.js:19
+#: integrations/gutenberg/dist/shortcode.js:2206
+#: integrations/gutenberg/dist/shortcode.js:2303
+msgid "WP Story (Story Box)"
+msgstr ""
+
+#: integrations/gutenberg/src/edit.js:63
+#: integrations/gutenberg/dist/shortcode.js:2217
+msgid "No boxes found!"
+msgstr ""
+
+#: integrations/gutenberg/src/index.js:20
+#: integrations/gutenberg/dist/shortcode.js:2304
+msgid "Display WP Story shortcode"
+msgstr ""
